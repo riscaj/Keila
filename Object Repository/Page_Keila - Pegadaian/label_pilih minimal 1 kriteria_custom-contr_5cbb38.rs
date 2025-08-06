@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_pilih minimal 1 kriteria_custom-contr_5cbb38</name>
+   <tag></tag>
+   <elementGuidId>6477099b-314e-4f55-a104-cae90b693e1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__506']/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.custom-control-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>deace8fd-9a90-4379-95ee-27c239ddf1ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-control-label</value>
+      <webElementGuid>f89508de-8145-4015-b04f-67c9383dcd93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>__BVID__507</value>
+      <webElementGuid>1f9a1f8f-d13a-4229-9862-57b59f951c61</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Usaha Bangkrut</value>
+      <webElementGuid>cd638790-2cea-480e-9636-19c366370d1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__506&quot;)/div[1]/div[@class=&quot;col-sm-6 d-inline-block mb-2 custom-control custom-checkbox&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
+      <webElementGuid>f07167a4-accf-4551-9ea5-d620ae64a004</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__506']/div/div/label</value>
+      <webElementGuid>2e4b0cef-b577-4aba-9cf5-705120c12266</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='* pilih minimal 1 kriteria'])[1]/following::label[1]</value>
+      <webElementGuid>79b95c7c-bc07-41e2-bf68-454a85686108</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Meninggal dunia'])[1]/preceding::label[1]</value>
+      <webElementGuid>b2c31824-7d29-49d1-b8d6-27572abba65b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bencana alam/Non Alam'])[1]/preceding::label[2]</value>
+      <webElementGuid>603ecf2a-5cf8-4967-8558-e7580d57f70d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Usaha Bangkrut']/parent::*</value>
+      <webElementGuid>9e398184-b439-4996-b413-2047a9760987</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/label</value>
+      <webElementGuid>b0add648-33ff-4aee-be4b-d28c631abd5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Usaha Bangkrut' or . = 'Usaha Bangkrut')]</value>
+      <webElementGuid>5269ea53-f330-4ece-a0a3-0037a59a13d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

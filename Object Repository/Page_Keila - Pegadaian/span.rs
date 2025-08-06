@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span</name>
+   <tag></tag>
+   <elementGuidId>98b106f4-6908-475b-8409-fc969756fd19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>257d5bf0-dc8f-4f55-a44c-0869d6193124</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Login</value>
+      <webElementGuid>3a534b4a-84af-4aa5-a4db-2aa66be2f2c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[1]/div[@class=&quot;animated fadeIn&quot;]/div[@class=&quot;app flex-row align-items-center&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-md-8 col-lg-5&quot;]/div[@class=&quot;card-group&quot;]/div[@class=&quot;card p-4&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;form-row&quot;]/div[@class=&quot;col-12&quot;]/button[@class=&quot;btn px-4 btn-block btn-primary&quot;]/span[1]</value>
+      <webElementGuid>1b91e85f-b128-4f2c-892a-01856b7a6e45</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::span[1]</value>
+      <webElementGuid>0d387281-f52c-45a9-8196-246ddbc191de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>2fc44aa0-395c-49e3-a076-c50624948ea1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Login' or . = 'Login')]</value>
+      <webElementGuid>72baa858-1a30-47d5-82f0-90b0b886c507</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

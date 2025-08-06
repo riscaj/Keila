@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Kantor Pusat (Konvensional)___BVID__11__B_0dc582</name>
+   <tag></tag>
+   <elementGuidId>033fd443-5cf4-4519-b0a7-d79daff63f91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='__BVID__11__BV_button_']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__11__BV_button_</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>38685bb1-f0d4-4141-88fe-a61826709c9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>69f07db7-ad04-44dc-a988-a7cc78e0677b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>4c4b274c-9f4a-4052-aa06-e26fa0f60b7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>504f8101-a067-417e-983e-19e0c5f068d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>4d0f0841-4859-4e31-8f2e-67291e4e85ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link dropdown-toggle dropdown-toggle-no-caret</value>
+      <webElementGuid>212fcee0-49fd-483b-bac7-379716c0b1ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__BVID__11__BV_button_</value>
+      <webElementGuid>7f5e42e7-1474-40b4-8e6a-70747d7848aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+      Halo, Administrator - admin
+       Kantor Pusat (Konvensional)</value>
+      <webElementGuid>1bf73d3e-b25e-41f6-b1c2-2a8542856724</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__11__BV_button_&quot;)</value>
+      <webElementGuid>d93192b8-a9ef-4199-8ad6-96d957b7a584</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='__BVID__11__BV_button_']</value>
+      <webElementGuid>7c145888-0f17-4049-af3b-55aa2e1b9156</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='__BVID__11']/a</value>
+      <webElementGuid>fc4ab90b-66f9-4f10-b726-9758d4169043</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::a[1]</value>
+      <webElementGuid>18c7e6f9-a938-421e-a4a0-97a8b04754fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Halo, Administrator - admin']/parent::*</value>
+      <webElementGuid>513593b6-689b-4ea8-bdbd-762acec6f986</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[3]</value>
+      <webElementGuid>298e6785-0838-40f6-b46b-4aa5b8d78c2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/li/a/li/a</value>
+      <webElementGuid>7048c18f-163e-4229-9ba1-11c8bfb2cea5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and @id = '__BVID__11__BV_button_' and (text() = '
+      Halo, Administrator - admin
+       Kantor Pusat (Konvensional)' or . = '
+      Halo, Administrator - admin
+       Kantor Pusat (Konvensional)')]</value>
+      <webElementGuid>65121b38-c042-4090-aced-36bdbb28d63b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

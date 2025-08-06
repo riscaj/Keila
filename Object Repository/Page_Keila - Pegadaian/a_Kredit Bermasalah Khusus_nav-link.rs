@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Kredit Bermasalah Khusus_nav-link</name>
+   <tag></tag>
+   <elementGuidId>262c8a8e-0d42-4783-b2d7-41f7207cefb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Pengajuan')])[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.nav-dropdown-items > li.nav-item.nav-dropdown.open > ul.nav-dropdown-items > li.nav-item > a.nav-link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>59831f67-65f4-4e06-b3e1-223c8ee3dfac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/program-kemitraan/kredit-bermasalah-khusus/pengajuan</value>
+      <webElementGuid>3ec1bf24-97e4-4574-8702-bc9780142c49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>c3492107-15d6-4357-806a-022b6ed1dc62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Pengajuan</value>
+      <webElementGuid>830e7ecb-fbcc-4e9a-a7d4-6981ea0fb53e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Pengajuan
+  </value>
+      <webElementGuid>3463fe24-47c9-417d-96f9-fa5edefb7efd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>922951f7-69c4-4a11-90d3-859e8cd364b5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Pengajuan')])[7]</value>
+      <webElementGuid>afe49f43-0374-4621-affe-1851562935bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kredit Bermasalah Khusus'])[1]/following::a[1]</value>
+      <webElementGuid>db6b1b3c-1e29-4ca5-8986-fafe99254b0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pencairan Dana Hibah'])[1]/following::a[1]</value>
+      <webElementGuid>b16fea38-526a-4edb-9b56-1ee50a994b8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[2]/preceding::a[1]</value>
+      <webElementGuid>dbba0afe-318b-4fc2-bda6-2fbc3b3fabfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Persetujuan'])[1]/preceding::a[2]</value>
+      <webElementGuid>e954cd27-edb2-46af-bb1c-740c8049dc05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/program-kemitraan/kredit-bermasalah-khusus/pengajuan')]</value>
+      <webElementGuid>4baa504a-5cf4-44c9-a320-3930d40e7858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[10]/ul/li/a</value>
+      <webElementGuid>bebb7536-fabe-4bae-9d2f-acdb98737907</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/program-kemitraan/kredit-bermasalah-khusus/pengajuan' and @title = 'Pengajuan' and (text() = ' Pengajuan
+  ' or . = ' Pengajuan
+  ')]</value>
+      <webElementGuid>d8111dc0-9851-4f2f-b98b-45e6deb8682d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

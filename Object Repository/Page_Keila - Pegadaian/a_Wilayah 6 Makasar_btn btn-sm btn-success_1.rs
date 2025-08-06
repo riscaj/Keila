@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Wilayah 6 Makasar_btn btn-sm btn-success_1</name>
+   <tag></tag>
+   <elementGuidId>c864d1d3-c50b-462b-85fe-b7262b1d376a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='__BVID__531']/tbody/tr[5]/td[9]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(5) > td:nth-of-type(9) > a.btn.btn-sm.btn-success</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4ddaea64-48c1-4e56-999f-75976ec02c7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>8d103856-9c36-45a8-8643-8c8e8ed75d8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>21c438f2-6426-4598-b0ae-c3c79f14f4d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-success</value>
+      <webElementGuid>53579f02-283c-46ed-a3ec-db373248d03d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Rekomendasi</value>
+      <webElementGuid>a7ad9227-3f20-4075-927a-66d2df39bfb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__531&quot;)/tbody[1]/tr[5]/td[9]/a[@class=&quot;btn btn-sm btn-success&quot;]</value>
+      <webElementGuid>397aa37a-15e0-4219-9c2c-f22d14147449</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='__BVID__531']/tbody/tr[5]/td[9]/a</value>
+      <webElementGuid>7926bceb-cfe7-4ff7-bfc3-cd2aee82e872</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Rekomendasi')])[11]</value>
+      <webElementGuid>ff6e866a-1bbe-45bf-b3f4-5d935c5dde54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wilayah 6 Makasar'])[3]/following::a[1]</value>
+      <webElementGuid>f1854dcf-7594-445e-a61e-192efdbb806c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KREDIT BERMASALAH'])[5]/following::a[1]</value>
+      <webElementGuid>77ac6439-13a5-4e4b-ac6a-ecc6c65b8eac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/preceding::a[1]</value>
+      <webElementGuid>cf898e1d-3783-45dd-b277-02fa1f84cc4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‹'])[1]/preceding::a[1]</value>
+      <webElementGuid>fd58cc98-4e73-4ae4-9d77-3665f62871fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[9]</value>
+      <webElementGuid>3e5738b6-96f0-48ef-a6a3-55d7390f50a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[9]/a</value>
+      <webElementGuid>6ebcea46-4cab-4bf3-90b2-19db3270c6bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Rekomendasi' or . = 'Rekomendasi')]</value>
+      <webElementGuid>10dc32ad-8320-47f6-8fee-b7fabe7617e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
