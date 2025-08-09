@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Filter daftar   Filter</name>
+   <tag></tag>
+   <elementGuidId>717e3da2-db85-4973-b747-0c94c738072b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>form.form-inline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pkKBRekomendasi']/div[2]/form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>4561f830-45ea-49c8-941b-315eb95b36c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-inline</value>
+      <webElementGuid>165b613a-a91d-42fd-b477-f1c282cbe748</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Filter daftar   Filter</value>
+      <webElementGuid>9de44ed1-7d88-4f21-b4a9-2dcbf40f250a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;pkKBRekomendasi&quot;)/div[@class=&quot;mb-3&quot;]/form[@class=&quot;form-inline&quot;]</value>
+      <webElementGuid>56178ef4-b971-4a7f-bf8c-3b97d3129caf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pkKBRekomendasi']/div[2]/form</value>
+      <webElementGuid>c0afb676-fad2-4c88-b66b-c5e98792eaa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[5]/following::form[1]</value>
+      <webElementGuid>63f1b585-cdf8-4fa3-a2cd-fca5a2b4b3d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi Kas'])[2]/following::form[1]</value>
+      <webElementGuid>6e91018a-cdff-46c3-8c19-dc0b253b1fe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>9cd2d411-e739-4d6a-b66a-423762c37503</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Filter daftar   Filter' or . = 'Filter daftar   Filter')]</value>
+      <webElementGuid>6f7f7dcb-c470-4e9a-87e0-438ee4797bf2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
