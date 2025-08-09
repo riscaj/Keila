@@ -6,12 +6,12 @@
    <elementGuidId>b60f9c7e-799a-4207-a72a-b1bb1d71badb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='alasan']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#alasan</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='alasan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>06174ce2-fe1a-4b2f-8e39-dcfbcc362dee</webElementGuid>
+      <webElementGuid>8fba47f0-1275-4c5a-8c00-3fbb174a1d9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>alasan</value>
-      <webElementGuid>4b5884ef-abe5-41ab-ace0-7b5ae5c71d94</webElementGuid>
+      <webElementGuid>6495594d-a000-4d9e-b238-451867ab9c1a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Alasan</value>
-      <webElementGuid>3175e72a-e397-4752-a157-e59b58b8e69b</webElementGuid>
+      <webElementGuid>d001f911-e262-433a-baaf-593f195aee0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>rows</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>23d56ba2-be33-411e-af4c-7f9c5d302928</webElementGuid>
+      <webElementGuid>bb900c95-a999-4636-86b5-a5c460bc3066</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>wrap</name>
       <type>Main</type>
       <value>soft</value>
-      <webElementGuid>fb1a843c-0552-4a5a-8579-5e9aa2ae5a66</webElementGuid>
+      <webElementGuid>bd5bc720-ae0c-40e8-8edf-072c4e751da1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>c954233f-f65d-47d7-b060-6ef65c879f62</webElementGuid>
+      <webElementGuid>8420207a-bfac-4d0b-b819-c301f581b8ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;alasan&quot;)</value>
-      <webElementGuid>3d3004a0-1322-47ab-a39c-d9c039feb2f3</webElementGuid>
+      <webElementGuid>24e43ef0-cfaf-461e-903d-b3ffbfeb229c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='alasan']</value>
-      <webElementGuid>d60bc9d2-d1ca-4fff-a5c9-a582c6c7adb1</webElementGuid>
+      <webElementGuid>09f6cba4-007f-4dd6-aa55-6eb739edb1de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='modal-alasan___BV_modal_body_']/textarea</value>
-      <webElementGuid>9e1d13c6-8ad6-4789-9b1e-0e66c87d08ac</webElementGuid>
+      <webElementGuid>34c8be84-54d5-41c2-a66f-565106086be4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>a99c361d-0d2a-4eae-898e-92044591f549</webElementGuid>
+      <webElementGuid>148999a8-447b-4538-8a7f-d2b59683953a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//textarea[@id = 'alasan' and @placeholder = 'Alasan']</value>
-      <webElementGuid>26c8e68e-c775-48a9-842c-f3eca9c14be4</webElementGuid>
+      <webElementGuid>778dbc5c-c061-4f47-af3f-7c9330747e6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,11 @@
    <elementGuidId>4c766670-ab2c-4ae3-9322-020c66b24f15</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Pencairan Dana Hibah'])[1]/following::div[1]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Pencairan Dana Hibah'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>cf3722c2-a202-4991-80f4-eff05aea5058</webElementGuid>
+      <webElementGuid>035c8e37-a119-4bd4-ad80-2b6022d60e3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link nav-dropdown-toggle</value>
-      <webElementGuid>4b9bf6ae-0882-454e-bbe5-e17ec04505f6</webElementGuid>
+      <webElementGuid>aa694f27-cd5e-41b1-88f0-cdad6a849e03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Kredit Bermasalah Khusus</value>
-      <webElementGuid>236948ad-946d-4e07-af68-64f11103a07b</webElementGuid>
+      <webElementGuid>8475ea9c-8886-455a-a638-e6969debf798</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item nav-dropdown&quot;]/div[@class=&quot;nav-link nav-dropdown-toggle&quot;]</value>
-      <webElementGuid>ce84ead0-e8ca-40d1-b841-951b9f8b1de0</webElementGuid>
+      <webElementGuid>b5bb1eea-c63b-4a36-a329-ab949eeaa36b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pencairan Dana Hibah'])[1]/following::div[1]</value>
-      <webElementGuid>adfbdaee-2ce2-40fc-8e5d-9eb30b3784d8</webElementGuid>
+      <webElementGuid>032f4923-448f-428e-9b53-c9769afcd678</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval Direktur Utama'])[1]/following::div[1]</value>
-      <webElementGuid>f15155ae-544d-42b1-9275-3823a9d7eeb0</webElementGuid>
+      <webElementGuid>e6cb39c1-2e2f-4600-8dd6-b0e0713aecfd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[5]/preceding::div[1]</value>
-      <webElementGuid>56e60c1c-ddf9-404c-8264-b5e16480d310</webElementGuid>
+      <webElementGuid>f577c8c5-2313-4266-8de0-55d2f07770f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[2]/preceding::div[1]</value>
-      <webElementGuid>d05372fb-6e4b-40c2-904b-ba956f823ed7</webElementGuid>
+      <webElementGuid>38a80112-464c-45ed-be2b-d71e543b8e3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Kredit Bermasalah Khusus']/parent::*</value>
-      <webElementGuid>5a0128f7-4c51-41d8-a1f9-a08c07cdbe41</webElementGuid>
+      <webElementGuid>2e55afa8-2524-4a24-b62f-6ef3d92a68d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[10]/div</value>
-      <webElementGuid>286ee0ca-2f2f-428a-9322-d5d4937ce738</webElementGuid>
+      <webElementGuid>41ef9b32-287c-4dc4-afa3-f935b05c43a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Kredit Bermasalah Khusus' or . = ' Kredit Bermasalah Khusus')]</value>
-      <webElementGuid>baeda583-0320-4ffc-ac1e-16273dbeeea7</webElementGuid>
+      <webElementGuid>f499c250-9651-4aa6-b48a-700bd0046117</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
