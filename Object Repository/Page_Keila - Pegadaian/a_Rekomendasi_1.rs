@@ -6,12 +6,12 @@
    <elementGuidId>1b58af01-03a8-4755-a4e9-3ed6eb56c39e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>tr:nth-of-type(5) > td:nth-of-type(9) > a.btn.btn-sm.btn-success</value>
+         <key>XPATH</key>
+         <value>//table[@id='__BVID__493']/tbody/tr/td[9]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='__BVID__550']/tbody/tr[5]/td[9]/a</value>
+         <key>CSS</key>
+         <value>a.btn.btn-sm.btn-success</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9d160956-e1ce-4fbb-a9a2-2b119fcc5f13</webElementGuid>
+      <webElementGuid>887fe04a-b294-477c-aa09-f218ca37f144</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_self</value>
-      <webElementGuid>ba13ada1-e276-48c7-8ac6-cb74f38f385a</webElementGuid>
+      <webElementGuid>c913103e-d94f-4013-9c3a-ae771d40d8a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>1a657721-5dd9-4496-bf8f-4c05ca3e7216</webElementGuid>
+      <webElementGuid>53397e32-74d7-4bd2-b01e-630a058e64a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-sm btn-success</value>
-      <webElementGuid>13147a4c-cb8e-4ca2-8eb5-6ddf91d13e7a</webElementGuid>
+      <webElementGuid>59936fc5-f055-444b-8a71-cd70919c6bfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,18 +55,90 @@
       <name>text</name>
       <type>Main</type>
       <value>Rekomendasi</value>
-      <webElementGuid>01944b97-4a9f-4069-bad9-129fefb7fa7e</webElementGuid>
+      <webElementGuid>c67bb824-f418-48ca-9e1f-320827cfb69c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__550&quot;)/tbody[1]/tr[5]/td[9]/a[@class=&quot;btn btn-sm btn-success&quot;]</value>
-      <webElementGuid>b10c68a8-fa3d-4e60-97c2-9ade292e452b</webElementGuid>
+      <value>id(&quot;__BVID__493&quot;)/tbody[1]/tr[1]/td[9]/a[@class=&quot;btn btn-sm btn-success&quot;]</value>
+      <webElementGuid>a23eb8dc-e93b-4d62-9a5e-6f0c46d371ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='__BVID__493']/tbody/tr/td[9]/a</value>
+      <webElementGuid>a00b524e-b498-467a-b689-fcdbd98120f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Rekomendasi')])[7]</value>
+      <webElementGuid>f0369d0d-2b51-439d-9277-83d8ee5e352b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wilayah 6 Makasar'])[1]/following::a[1]</value>
+      <webElementGuid>3010b28c-f3d3-40d1-a0af-f129d2aabb73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KREDIT BERMASALAH'])[1]/following::a[1]</value>
+      <webElementGuid>4a3d6ab5-b48a-42c1-a639-af84942e5cd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mustapa'])[1]/preceding::a[1]</value>
+      <webElementGuid>3e6295c0-8276-453e-a981-cf11508a96a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buana Maru'])[1]/preceding::a[2]</value>
+      <webElementGuid>d9ac8d8a-2ff4-40c6-9cde-470afd194a7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>458f5c6e-9969-4237-9d8d-a9c491de5879</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/a</value>
+      <webElementGuid>73f582ea-4e7c-4e1f-a932-c4f19467eaa9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Rekomendasi' or . = 'Rekomendasi')]</value>
+      <webElementGuid>7f0f2dd4-8311-45b8-98fa-e1ee70be475b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -128,14 +200,6 @@
       <type>Main</type>
       <value>//tr[5]/td[9]/a</value>
       <webElementGuid>3f82e8e7-37d8-4538-bafe-bc283d7611d3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = '#' and (text() = 'Rekomendasi' or . = 'Rekomendasi')]</value>
-      <webElementGuid>d858419d-bfb8-4626-ba8b-4558a0d94228</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

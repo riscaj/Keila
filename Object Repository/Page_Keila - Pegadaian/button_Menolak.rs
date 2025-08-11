@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Kirim</name>
+   <name>button_Menolak</name>
    <tag></tag>
-   <elementGuidId>08f1d658-3cce-4dc4-93ba-65c55c35062d</elementGuidId>
+   <elementGuidId>e233bac1-8b0a-4060-8263-327da7b45eae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <value>(//button[@type='button'])[6]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.mt-3.btn-primary.btn-block</value>
+         <value>button.btn.btn-danger.btn-block</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b602cbbb-cf6c-4dfd-a1df-c592733eb903</webElementGuid>
+      <webElementGuid>ca4ed109-af0b-40d6-a526-fd97fe4e9c74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,94 +31,86 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>97cf3bda-b63c-42cb-ad81-92d40251e86e</webElementGuid>
+      <webElementGuid>795a31f7-99ff-454c-b5e3-d56f08537a6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn mt-3 btn-primary btn-block</value>
-      <webElementGuid>3d34994c-1523-4834-b195-42e648007aa7</webElementGuid>
+      <value>btn btn-danger btn-block</value>
+      <webElementGuid>3f98a3a8-e6c5-4ca5-b0af-ce1e2e8958cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Kirim</value>
-      <webElementGuid>b5167cba-846f-41b9-960a-2619bf6fee06</webElementGuid>
+      <value>Menolak</value>
+      <webElementGuid>d52687ae-4b7a-413b-8bd1-27f1b7e04f2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modal-alasan___BV_modal_body_&quot;)/button[@class=&quot;btn mt-3 btn-primary btn-block&quot;]</value>
-      <webElementGuid>1f8b5930-7602-4be4-94fe-613bb2b4b454</webElementGuid>
+      <value>id(&quot;modalAjukanReklas___BV_modal_footer_&quot;)/div[@class=&quot;w-100&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/button[@class=&quot;btn btn-danger btn-block&quot;]</value>
+      <webElementGuid>db0bf4db-ba5b-44f0-a535-6632a5b3d0a3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>40dd9f3c-bf9e-4765-8818-6371cdd1252a</webElementGuid>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>a9ddecda-ebe0-4dcb-a514-2208436c1341</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='modal-alasan___BV_modal_body_']/button</value>
-      <webElementGuid>ee8421da-daab-49d0-bdd0-e6ae4455a1f4</webElementGuid>
+      <value>//footer[@id='modalAjukanReklas___BV_modal_footer_']/div/div/div[2]/button</value>
+      <webElementGuid>901a184a-9d5d-4f74-b603-cd80db472b93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[1]</value>
-      <webElementGuid>91b1a498-6fff-4c73-b68e-44bd9368e559</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menyetujui'])[1]/following::button[1]</value>
+      <webElementGuid>bb8b4aec-5356-40d5-8a57-1fc0b3b817bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alasan Menolak'])[1]/following::button[2]</value>
-      <webElementGuid>4bf948fb-cfbe-40e4-8296-e2aad132a9fc</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Pencairan'])[1]/following::button[2]</value>
+      <webElementGuid>71f85586-57d7-4e58-bfcb-52b7c2ee0e76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Kirim']/parent::*</value>
-      <webElementGuid>ad98db73-9d6c-479d-b01d-493469fce1b4</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Menolak']/parent::*</value>
+      <webElementGuid>ffe544a8-289b-4a97-8105-2d4536d81284</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/button</value>
-      <webElementGuid>e55c33e0-46df-4336-9010-940b3776a3f6</webElementGuid>
+      <value>//div[2]/button</value>
+      <webElementGuid>bc868cb8-53d3-46e1-8355-5a903db40ecf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Kirim' or . = 'Kirim')]</value>
-      <webElementGuid>f51adba0-98ad-4cf8-98d0-068a9cc73edf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alasan Menerima'])[1]/following::button[2]</value>
-      <webElementGuid>c2b05730-de80-422e-82a6-9b661577b92f</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Menolak' or . = 'Menolak')]</value>
+      <webElementGuid>09eb34b3-f65a-4eea-b758-ad76d1705f16</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

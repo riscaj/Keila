@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Log
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), 'RAIVpflpDOg=')
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/span_Login'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Program Kemitraan'))
 
@@ -35,15 +35,15 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Kredit 
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Persetujuan'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Filter daftar___BVID__492'), '1100106970010')
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Approve Reklas'))
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Filter'))
+WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/textarea__alasan-approval'), 'not ok')
 
-WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Filter daftar___BVID__492'), '')
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tolak'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Filter daftar___BVID__493'), 'CV')
+WebUI.waitForAlert(10)
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Filter'))
+WebUI.acceptAlert()
 
 WebUI.delay(15)
 

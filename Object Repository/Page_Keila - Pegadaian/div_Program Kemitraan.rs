@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>9b2eab67-f65b-41ec-95ab-b8da9956f92d</webElementGuid>
+      <webElementGuid>666123b1-5ac3-4dea-814f-48765146bdf0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link nav-dropdown-toggle</value>
-      <webElementGuid>d7a7d2e6-7908-448e-93b2-ff39918d38ae</webElementGuid>
+      <webElementGuid>631a30ad-c359-4f52-909c-40ec3f9bb4b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Program Kemitraan</value>
-      <webElementGuid>52a98e67-6db4-4b11-86b3-cb5a6e9e7881</webElementGuid>
+      <webElementGuid>fbe9d9a1-8c2c-48d3-aaa7-8e9d0efcfcd9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown&quot;]/div[@class=&quot;nav-link nav-dropdown-toggle&quot;]</value>
-      <webElementGuid>4f173a23-4066-41f0-b554-a702c4c892a3</webElementGuid>
+      <webElementGuid>042793b5-c222-44a9-b482-e75b668e1fca</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::div[1]</value>
-      <webElementGuid>ff11a007-3356-430a-a139-58b9f187770d</webElementGuid>
+      <webElementGuid>c327b216-83ee-4e79-9cde-7a46ecdc591a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[4]</value>
-      <webElementGuid>8fbd4363-3703-4143-b127-2583e636bc76</webElementGuid>
+      <webElementGuid>38f69e43-2376-4e1e-9fae-e2cf60c8e17c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Penyaluran'])[1]/preceding::div[1]</value>
-      <webElementGuid>91268a32-6fe4-4794-a3d6-3743841c613e</webElementGuid>
+      <webElementGuid>c84ab9d4-701c-4c1e-9bca-3e5cae821ebb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Mitra Binaan'])[1]/preceding::div[2]</value>
-      <webElementGuid>6c1a13fd-1afd-42e7-b728-d54d4b47d6c7</webElementGuid>
+      <webElementGuid>013e1bdd-44ec-474e-bb31-9e4a7c5f646c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Program Kemitraan']/parent::*</value>
-      <webElementGuid>9e8136da-9b42-4d03-9d45-0a599a590be2</webElementGuid>
+      <webElementGuid>3c330773-8d38-43c1-b056-a482d73fa0f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div</value>
-      <webElementGuid>94643c59-042c-4575-9353-d7d398f7e260</webElementGuid>
+      <webElementGuid>2944f810-65ab-4778-864f-4bdf8b88c886</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Program Kemitraan' or . = ' Program Kemitraan')]</value>
-      <webElementGuid>51030ccf-e657-41c1-9dbe-4f34368a0b1b</webElementGuid>
+      <webElementGuid>a1944427-1042-476a-888e-898640836666</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

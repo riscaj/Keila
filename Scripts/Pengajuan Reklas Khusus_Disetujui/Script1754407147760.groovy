@@ -26,47 +26,60 @@ WebUI.maximizeWindow()
 
 //Login
 WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__8'), 'admin')
+
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), 'RAIVpflpDOg=')
+
 WebUI.sendKeys(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), Keys.chord(Keys.ENTER))
 
 //Pengajuan
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Program Kemitraan'))
+
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Kredit Bermasalah Khusus'))
+
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Pengajuan'))
+
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Tambah'))
+
 TestObject nomorKreditInput = new TestObject()
+
 nomorKreditInput.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Kredit\']')
-WebUI.setText(nomorKreditInput, '1110001170018')
+
+WebUI.setText(nomorKreditInput, '1100102150014')
 
 TestObject cariDataBtn = new TestObject()
+
 cariDataBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Cari Data\']')
+
 WebUI.click(cariDataBtn)
 
 TestObject ajukanReklasBtn = new TestObject()
-ajukanReklasBtn.addProperty("xpath", ConditionType.EQUALS, "//a[normalize-space()='Ajukan Reklas']")
+
+ajukanReklasBtn.addProperty('xpath', ConditionType.EQUALS, '//a[normalize-space()=\'Ajukan Reklas\']')
+
 WebUI.click(ajukanReklasBtn)
 
 TestObject kriteriaBencana = new TestObject()
-kriteriaBencana.addProperty(
-    "xpath",
-    ConditionType.EQUALS,
-    "//label[contains(., 'Bencana alam/Non Alam')]"
-)
-WebUI.executeJavaScript(
-    "arguments[0].click();",
-    Arrays.asList(WebUI.findWebElement(kriteriaBencana, 10))
-)
+
+kriteriaBencana.addProperty('xpath', ConditionType.EQUALS, '//label[contains(., \'Bencana alam/Non Alam\')]')
+
+WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(kriteriaBencana, 10)))
 
 TestObject alasanPengajuan = new TestObject()
-alasanPengajuan.addProperty("xpath", ConditionType.EQUALS, "//textarea[@placeholder='Alasan Pengajuan']")
-WebUI.setText(alasanPengajuan, "Banjir")
+
+alasanPengajuan.addProperty('xpath', ConditionType.EQUALS, '//textarea[@placeholder=\'Alasan Pengajuan\']')
+
+WebUI.setText(alasanPengajuan, 'Banjir')
 
 TestObject uploadFileInput = new TestObject()
-uploadFileInput.addProperty("xpath", ConditionType.EQUALS, "//input[@type='file']")
-WebUI.uploadFile(uploadFileInput, "/Users/riscajulinarti/Documents/Pdf test file.pdf")
+
+uploadFileInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'file\']')
+
+WebUI.uploadFile(uploadFileInput, '/Users/riscajulinarti/Documents/Pdf test file.pdf')
 
 TestObject simpanBtn = new TestObject()
-simpanBtn.addProperty("xpath", ConditionType.EQUALS, "//button[normalize-space()='Simpan']")
+
+simpanBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Simpan\']')
+
 //WebUI.waitForElementClickable(simpanBtn, 10)
 WebUI.click(simpanBtn)
 
@@ -79,27 +92,46 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tutu
 //WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/label_Bencana alamNon Alam'))
 //WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/textarea____BVID__523'), 'banjir')
 //WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Simpan'))
-
 //Rekomendasi
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Rekomendasi'))
 
 TestObject btnRekomendasi = new TestObject('btnRekomendasi')
-btnRekomendasi.addProperty("xpath", ConditionType.EQUALS,
-    "//table[contains(@class,'table-bordered')]/tbody/tr[8]//a[contains(text(),'Rekomendasi')]"
-)
+
+btnRekomendasi.addProperty('xpath', ConditionType.EQUALS, '//table[contains(@class,\'table-bordered\')]/tbody/tr[1]//a[contains(text(),\'Rekomendasi\')]')
+
 WebUI.click(btnRekomendasi)
 
 //WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Rekomendasi_1'))
-
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Menyetujui'))
+
 WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/textarea__alasan'), 'setuju')
+
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Kirim'))
+
+WebUI.waitForAlert(10)
+
+WebUI.acceptAlert()
 
 //Persetujuan
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Persetujuan'))
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Approve Reklas'))
+
+TestObject btnApproval = new TestObject('btnApproval')
+
+btnApproval.addProperty('xpath', ConditionType.EQUALS, '//table[contains(@class,\'table-bordered\')]/tbody/tr[1]//a[contains(text(),\'Approve Reklas\')]')
+
+WebUI.click(btnApproval)
+
+//WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Approve Reklas'))
+
 WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/textarea__alasan-approval'), 'ok')
+
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Terima'))
+
+WebUI.waitForAlert(10)
+
+WebUI.acceptAlert()
+
+WebUI.delay(15)
 
 WebUI.closeBrowser()
 
