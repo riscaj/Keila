@@ -6,12 +6,11 @@
    <elementGuidId>5fa793dd-d0dc-4def-b5f4-83590d32d14c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Rekomendasi')])[4]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'Rekomendasi')])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7377c1af-4202-4892-b6a3-293e7ffb32bf</webElementGuid>
+      <webElementGuid>05607888-d437-4126-8f4d-8d1fdae08040</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/program-kemitraan/kredit-bermasalah-khusus/rekomendasi</value>
-      <webElementGuid>04fe987f-e061-45a3-81eb-33efafb74dd3</webElementGuid>
+      <webElementGuid>9856634b-fdaf-408c-adb5-547db848c4a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>02ffac0d-4d41-4dbb-8337-62cae77ffd2e</webElementGuid>
+      <webElementGuid>7edc1543-127c-4f80-90fb-72a431bd6e4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Rekomendasi</value>
-      <webElementGuid>05fd56d9-3ece-4b60-9c8c-af395f5f77eb</webElementGuid>
+      <webElementGuid>85130513-1035-4274-b90d-48ce693452bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +55,7 @@
       <type>Main</type>
       <value> Rekomendasi
   </value>
-      <webElementGuid>1deeb943-5bc8-47f5-be5d-d62499587e18</webElementGuid>
+      <webElementGuid>705d08d1-563e-4d79-a38b-547729c9153a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>16b2ebb1-f7c0-4f81-a3ee-c0c570e3f883</webElementGuid>
+      <webElementGuid>6ce01e2b-a923-41b1-9467-f734411d1937</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -72,7 +71,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Rekomendasi')])[4]</value>
-      <webElementGuid>1cdf88ba-ea25-4950-8498-4c6790352424</webElementGuid>
+      <webElementGuid>6c44b5ee-4bee-45e8-933c-d8333d4d62e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[5]/following::a[1]</value>
-      <webElementGuid>52a2c396-c3be-453b-a839-e59159f24cea</webElementGuid>
+      <webElementGuid>0fa03df4-8fa3-4b26-8d2a-ab838d71446e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kredit Bermasalah Khusus'])[1]/following::a[2]</value>
-      <webElementGuid>0e0b715e-17e2-4b39-a90c-f7cf5c7b3585</webElementGuid>
+      <webElementGuid>aebf7e39-aad8-4f18-9a70-8d0d03083953</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Persetujuan'])[1]/preceding::a[1]</value>
-      <webElementGuid>63ace16a-4460-44ce-939a-2ecb86d667dd</webElementGuid>
+      <webElementGuid>c9aa1b31-cef1-4f89-818e-2f13d352ed8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hapus Buku'])[1]/preceding::a[2]</value>
-      <webElementGuid>a2b9b3e9-a789-4a8a-92cc-71b6259a4c78</webElementGuid>
+      <webElementGuid>a0dd65f5-41c0-4be5-a1a1-8debbd257bd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +111,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/program-kemitraan/kredit-bermasalah-khusus/rekomendasi')]</value>
-      <webElementGuid>6a81c559-5fa2-43ef-9c6d-4d5678c3bd42</webElementGuid>
+      <webElementGuid>9c407ceb-67c9-4ca9-8657-732ed3000a39</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[10]/ul/li[2]/a</value>
-      <webElementGuid>99403b9b-a4ee-4b8b-8318-021070c30d8c</webElementGuid>
+      <webElementGuid>53d90de6-94b2-4ad7-8642-fa74400c8d3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,6 +129,6 @@
       <value>//a[@href = '/program-kemitraan/kredit-bermasalah-khusus/rekomendasi' and @title = 'Rekomendasi' and (text() = ' Rekomendasi
   ' or . = ' Rekomendasi
   ')]</value>
-      <webElementGuid>2ca32424-f263-46ba-a505-1e4e1c5adc82</webElementGuid>
+      <webElementGuid>84d49481-098f-4654-b116-45f635211bee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

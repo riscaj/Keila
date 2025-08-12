@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>aeb86123-9e95-4b9e-a6b4-d489b67c673b</webElementGuid>
+      <webElementGuid>d1ef01fd-cd96-49f8-b1d1-80e1723c14dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/program-kemitraan/kredit-bermasalah-khusus/pengajuan/tambah</value>
-      <webElementGuid>dd082dd6-6f82-4826-b2e8-862526fd645e</webElementGuid>
+      <webElementGuid>3498c646-a5a9-4ffc-870c-aaed638a939f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block</value>
-      <webElementGuid>296a8a92-5163-43c2-8a42-5843e1c00972</webElementGuid>
+      <webElementGuid>1d624292-d413-478b-9b5e-087a88d0715c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_self</value>
-      <webElementGuid>886885ff-701c-48cb-a839-1ae5d6c6c73c</webElementGuid>
+      <webElementGuid>03a68be4-3ecc-4f94-869d-660e4093e8d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tambah</value>
-      <webElementGuid>fff32207-e7ee-4b78-9d88-61e35e1275c4</webElementGuid>
+      <webElementGuid>7f3e6053-df54-46a5-b3e7-2ef72313d58f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;pkKBPengajuan&quot;)/div[@class=&quot;mb-3 row&quot;]/div[@class=&quot;col-md-auto d-print-none&quot;]/a[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>05d28804-1c4f-4f1f-84eb-b598a9913754</webElementGuid>
+      <webElementGuid>1f4bcb3a-0ba7-4918-a054-810d8ff4d660</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='pkKBPengajuan']/div/div[2]/a</value>
-      <webElementGuid>35f64755-ed72-4bf5-8a8a-47df8741cd60</webElementGuid>
+      <webElementGuid>57c9f3bf-6c84-42df-900e-4699d6e6308d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Tambah')]</value>
-      <webElementGuid>11512a6f-3403-4a7f-82c3-6682ad40559c</webElementGuid>
+      <webElementGuid>5d672b71-1821-43dd-b6f8-b9b4769c9341</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[9]/following::a[1]</value>
-      <webElementGuid>d4132821-f760-454f-ad50-8a84fa79155a</webElementGuid>
+      <webElementGuid>77930e0b-6f10-40b6-8bd2-3d84d3228d6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi Kas'])[2]/following::a[1]</value>
-      <webElementGuid>3843bee9-e2e4-49fe-bd55-2d23ab1bd0d5</webElementGuid>
+      <webElementGuid>1df0c37e-27df-4cb4-b342-9312f4d4ea22</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter daftar'])[1]/preceding::a[1]</value>
-      <webElementGuid>4f01f354-df8a-44c4-b043-eaee90228e96</webElementGuid>
+      <webElementGuid>e70e9f25-479d-43a7-b2e5-a2becdead100</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::a[1]</value>
-      <webElementGuid>e3d6a099-8065-411c-a71c-87808d12d17d</webElementGuid>
+      <webElementGuid>6bdc5087-3e89-4778-81d5-0cfa5b391fcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tambah']/parent::*</value>
-      <webElementGuid>7e12cc19-2d5b-4c4d-8846-e95d2ee5b08b</webElementGuid>
+      <webElementGuid>79de57eb-e465-4423-9827-56f3602f19cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/program-kemitraan/kredit-bermasalah-khusus/pengajuan/tambah')]</value>
-      <webElementGuid>9f16d14d-e795-4925-a466-cc21157bff89</webElementGuid>
+      <webElementGuid>17e8f415-2dd3-44f1-9288-61477c51d8c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/a</value>
-      <webElementGuid>123d70cd-ede4-4d66-8acc-586c41332fbe</webElementGuid>
+      <webElementGuid>58ddc147-30de-45b6-9f21-39e00e6b238a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +143,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/program-kemitraan/kredit-bermasalah-khusus/pengajuan/tambah' and (text() = 'Tambah' or . = 'Tambah')]</value>
-      <webElementGuid>1ead7f1b-a3cf-41db-983d-2c91b48bf9c0</webElementGuid>
+      <webElementGuid>90ad09bc-22f0-477f-a5b7-6ef16b3eaa35</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>08f1d658-3cce-4dc4-93ba-65c55c35062d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.mt-3.btn-primary.btn-block</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b602cbbb-cf6c-4dfd-a1df-c592733eb903</webElementGuid>
+      <webElementGuid>54754800-b647-408b-89d6-bfc4c55a7610</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>97cf3bda-b63c-42cb-ad81-92d40251e86e</webElementGuid>
+      <webElementGuid>8f9ce33c-1ea6-4950-9404-49c446e5b9d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn mt-3 btn-primary btn-block</value>
-      <webElementGuid>3d34994c-1523-4834-b195-42e648007aa7</webElementGuid>
+      <webElementGuid>3ab03cc0-41c2-466b-bf10-4be4aafa87d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Kirim</value>
-      <webElementGuid>b5167cba-846f-41b9-960a-2619bf6fee06</webElementGuid>
+      <webElementGuid>3bb78bb1-9ec0-45a1-a142-f526ac508afc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modal-alasan___BV_modal_body_&quot;)/button[@class=&quot;btn mt-3 btn-primary btn-block&quot;]</value>
-      <webElementGuid>1f8b5930-7602-4be4-94fe-613bb2b4b454</webElementGuid>
+      <webElementGuid>576b86cf-85d2-490a-9529-d0766500660a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>40dd9f3c-bf9e-4765-8818-6371cdd1252a</webElementGuid>
+      <webElementGuid>2a8f5c3d-f7e0-4b7d-ac14-d3cdb6dd30dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='modal-alasan___BV_modal_body_']/button</value>
-      <webElementGuid>ee8421da-daab-49d0-bdd0-e6ae4455a1f4</webElementGuid>
+      <webElementGuid>6fc60e7e-4bd6-4f70-80b3-1e1644892d08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[1]</value>
-      <webElementGuid>91b1a498-6fff-4c73-b68e-44bd9368e559</webElementGuid>
+      <webElementGuid>a9848a2d-65ba-47ef-ba33-2cc6c96b2093</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alasan Menolak'])[1]/following::button[2]</value>
-      <webElementGuid>4bf948fb-cfbe-40e4-8296-e2aad132a9fc</webElementGuid>
+      <webElementGuid>575355dc-b44e-489c-9120-5f5ab0ff083b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Kirim']/parent::*</value>
-      <webElementGuid>ad98db73-9d6c-479d-b01d-493469fce1b4</webElementGuid>
+      <webElementGuid>3629e4ff-534f-44d8-9377-ed8a3c28c0f4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button</value>
-      <webElementGuid>e55c33e0-46df-4336-9010-940b3776a3f6</webElementGuid>
+      <webElementGuid>903f6e8b-c7d7-405c-9a6c-39a260e96def</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Kirim' or . = 'Kirim')]</value>
-      <webElementGuid>f51adba0-98ad-4cf8-98d0-068a9cc73edf</webElementGuid>
+      <webElementGuid>bd1daf0d-3c56-4f93-8faf-008d992e5483</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alasan Menerima'])[1]/following::button[2]</value>
-      <webElementGuid>c2b05730-de80-422e-82a6-9b661577b92f</webElementGuid>
+      <webElementGuid>3fd8c428-540c-4fe6-91cc-0cec37ed6796</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

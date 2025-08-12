@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1303bc1c-a176-4ef1-a92a-6f021ee87fb7</webElementGuid>
+      <webElementGuid>b2412851-63c0-4b3c-af21-dd6705c39d90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/program-kemitraan/kredit-bermasalah-khusus/persetujuan</value>
-      <webElementGuid>217d5bbc-ac22-4b18-bd30-aae5cbc8abdf</webElementGuid>
+      <webElementGuid>051cb484-ae0e-49e9-a3e7-1df03582d151</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>b6cddf38-4b2f-414a-b794-be5d0de43dff</webElementGuid>
+      <webElementGuid>6efc4d38-a5e8-44f8-b1c1-33081f488cdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Persetujuan</value>
-      <webElementGuid>944e9e4c-35ad-4392-a2a6-112f8d04c509</webElementGuid>
+      <webElementGuid>0e15ea5c-0918-43d6-8e6d-55312d0b874a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +55,7 @@
       <type>Main</type>
       <value> Persetujuan
   </value>
-      <webElementGuid>cf521d59-142f-4a5d-9850-114c401cbda1</webElementGuid>
+      <webElementGuid>4891c4b6-a862-4bd8-9575-291fd4853d42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>df2a1fa8-cbb4-4644-b69f-ad6d223f3277</webElementGuid>
+      <webElementGuid>9ca37ba7-7d10-4e0d-bb7b-d1b04c82e413</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -72,7 +71,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Persetujuan')])[4]</value>
-      <webElementGuid>59fa5253-0292-4082-8fc9-d15acce27a75</webElementGuid>
+      <webElementGuid>b8301da7-5100-493d-ba93-5199c8890dd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[2]/following::a[1]</value>
-      <webElementGuid>a5264bd1-f20f-453a-ad9a-f7c4fe9c2d6e</webElementGuid>
+      <webElementGuid>093ee1f2-f068-4df0-8108-46919b91a00a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[5]/following::a[2]</value>
-      <webElementGuid>368f2f48-431e-4878-ac83-63f4f3f5a7f3</webElementGuid>
+      <webElementGuid>2e2e7b97-dda2-4dca-8deb-3df949f1a211</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hapus Buku'])[1]/preceding::a[1]</value>
-      <webElementGuid>5152c125-27e7-4b32-a204-3b1355989764</webElementGuid>
+      <webElementGuid>9a9baae4-1b33-4b6d-824c-a151433116a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[6]/preceding::a[1]</value>
-      <webElementGuid>afab51a1-0a10-415c-9b3b-1616e0c7217a</webElementGuid>
+      <webElementGuid>d680a2bd-06e2-405b-99f8-e19a939cdb0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Persetujuan']/parent::*</value>
-      <webElementGuid>c150ec5a-9bc0-49a1-8d47-c4c944e6fba3</webElementGuid>
+      <webElementGuid>4b4321ba-9811-49bd-921d-e6e4d666c108</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +119,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/program-kemitraan/kredit-bermasalah-khusus/persetujuan')]</value>
-      <webElementGuid>dc233752-f216-4436-9327-b88851678920</webElementGuid>
+      <webElementGuid>39faef8b-b6fb-4b71-92fa-89db04c54420</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[10]/ul/li[3]/a</value>
-      <webElementGuid>a8f6aa9d-fd44-43da-848d-0a2540da4cda</webElementGuid>
+      <webElementGuid>9e0f0b79-4842-4767-970b-a33d91ac3231</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,6 +137,6 @@
       <value>//a[@href = '/program-kemitraan/kredit-bermasalah-khusus/persetujuan' and @title = 'Persetujuan' and (text() = ' Persetujuan
   ' or . = ' Persetujuan
   ')]</value>
-      <webElementGuid>3f1878ff-5c27-4a36-9a8b-06aacbe18bcd</webElementGuid>
+      <webElementGuid>93114fdc-8c79-432d-91cb-2b4bd2f25ec8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

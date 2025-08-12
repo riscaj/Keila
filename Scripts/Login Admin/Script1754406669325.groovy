@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://keila.internal.trivamas.com/admin')
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__8'), 'admin')
+WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__8'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), 'RAIVpflpDOg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), GlobalVariable.password)
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Login_btn px-4 btn-block btn-primary'))
 
-WebUI.delay(15)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

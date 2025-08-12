@@ -20,14 +20,14 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://keila.internal.trivamas.com/admin')
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 WebUI.maximizeWindow()
 
 //Login
-WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__8'), 'admin')
+WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__8'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), 'RAIVpflpDOg=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), GlobalVariable.password)
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), Keys.chord(Keys.ENTER))
 
@@ -44,7 +44,7 @@ TestObject nomorKreditInput = new TestObject()
 
 nomorKreditInput.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Kredit\']')
 
-WebUI.setText(nomorKreditInput, '1100102150014')
+WebUI.setText(nomorKreditInput, '1100106980010')
 
 TestObject cariDataBtn = new TestObject()
 
@@ -131,7 +131,6 @@ WebUI.waitForAlert(10)
 
 WebUI.acceptAlert()
 
-WebUI.delay(15)
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tutup_1'))
 
 WebUI.closeBrowser()
-

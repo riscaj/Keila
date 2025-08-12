@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Menyetujui</name>
+   <name>button_Tutup_1</name>
    <tag></tag>
-   <elementGuidId>c4f73c33-1e33-4d97-aea1-fd48a1ba203b</elementGuidId>
+   <elementGuidId>2b86d100-d186-44d8-a7e6-68f26093c06c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.btn-block</value>
+         <value>button.btn.btn-danger</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3bdd6a3c-35e3-49af-815c-b61c5e096f89</webElementGuid>
+      <webElementGuid>c54939c8-ecb8-46de-ab5d-2af859775c32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,31 +31,31 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>64b643bb-92d6-4cc8-b874-3ffed235c2ed</webElementGuid>
+      <webElementGuid>70aeab81-3089-43f2-abe8-850efb7a62e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block</value>
-      <webElementGuid>40810d8e-9455-4b97-9fa8-784fa8a7eadb</webElementGuid>
+      <value>btn btn-danger</value>
+      <webElementGuid>e4b461bd-e3b1-45e7-9e21-d27f66926cf1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Menyetujui</value>
-      <webElementGuid>d4b34eb6-9279-4e2e-9632-46316a979e6e</webElementGuid>
+      <value>Tutup</value>
+      <webElementGuid>8dfa4e34-ec50-48ca-b396-e9cfd729af2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modalAjukanReklas___BV_modal_footer_&quot;)/div[@class=&quot;w-100&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-3 mb-md-0 col-md-6&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>520aac8a-66f9-4467-9442-b4eeb7185afc</webElementGuid>
+      <value>id(&quot;modal___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn btn-danger&quot;]</value>
+      <webElementGuid>818a7654-cec5-4691-abe6-99c1a99dd0a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,62 +63,54 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>e9c9b736-e724-4e05-916d-ee0f9d6fbfdc</webElementGuid>
+      <webElementGuid>77e4b096-52b9-4dd3-9dea-e9eab46da3c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//footer[@id='modalAjukanReklas___BV_modal_footer_']/div/div/div/button</value>
-      <webElementGuid>deb687a9-4ebc-49ee-a37e-6b3d0ce51a9d</webElementGuid>
+      <value>//footer[@id='modal___BV_modal_footer_']/div/button</value>
+      <webElementGuid>06671108-6615-401d-9f6c-dec312b2a49f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Pencairan'])[1]/following::button[1]</value>
-      <webElementGuid>7f276110-6416-4515-8221-53c8d2bfc421</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berkas F-BM2a'])[1]/following::button[1]</value>
+      <webElementGuid>d46bd78b-c193-44c5-bc19-e9a1b6139c8f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jangka Waktu'])[1]/following::button[1]</value>
-      <webElementGuid>a9791405-efdf-45aa-8912-bc6cacc36afd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reklas berhasil diterima'])[1]/following::button[2]</value>
+      <webElementGuid>33271684-ed68-4eec-b50e-375c62035ec2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menolak'])[1]/preceding::button[1]</value>
-      <webElementGuid>e7290b02-9d5a-45ad-9c8e-34bcbbeb2b0b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Menyetujui']/parent::*</value>
-      <webElementGuid>a34a181e-ef3a-45b0-848c-f7cc85a1a599</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Tutup']/parent::*</value>
+      <webElementGuid>5173297b-481b-400b-9af3-acd582f4da10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/button</value>
-      <webElementGuid>727f5cf1-96de-4a90-9239-2640132af29c</webElementGuid>
+      <value>//footer/div/button</value>
+      <webElementGuid>25058326-1902-4d7f-8c36-025b2fccf0d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Menyetujui' or . = 'Menyetujui')]</value>
-      <webElementGuid>3694fafe-4bc6-48f0-8bcf-d7af845f4ce4</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Tutup' or . = 'Tutup')]</value>
+      <webElementGuid>e1cc3fbb-36fd-4922-be3b-4fc3a0a90602</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

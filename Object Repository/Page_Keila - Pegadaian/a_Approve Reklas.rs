@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>7f3226da-9b1c-48cd-81d5-2c2b92c912b3</webElementGuid>
+      <webElementGuid>0202857b-353e-48ca-82f8-7a89a761952d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_self</value>
-      <webElementGuid>655d1c0a-a817-4411-9e77-d941658b8c7b</webElementGuid>
+      <webElementGuid>02dd9b1d-3ef6-4bb0-9a0c-df00567a79c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>eed117de-e078-4bd5-88a2-b27f1e739272</webElementGuid>
+      <webElementGuid>87745320-b298-4b61-afc8-2151aa89447e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-sm btn-success</value>
-      <webElementGuid>14278c9e-67cc-44c9-a8c6-e65be9407205</webElementGuid>
+      <webElementGuid>ded33277-e54c-4f18-993d-49e5389c7c73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Approve Reklas</value>
-      <webElementGuid>3c7aabed-cb37-4244-a104-5dc2f8950606</webElementGuid>
+      <webElementGuid>da244cb2-7f6d-4c3e-86aa-4b4633f79471</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__BVID__494&quot;)/tbody[1]/tr[1]/td[9]/a[@class=&quot;btn btn-sm btn-success&quot;]</value>
-      <webElementGuid>de2b1fac-499d-4726-9429-8f53648da770</webElementGuid>
+      <webElementGuid>3214cf69-a25c-4598-9e15-c6d8cdc8d6be</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='__BVID__494']/tbody/tr/td[9]/a</value>
-      <webElementGuid>732f5e50-2f1e-4197-a539-3bb1f7024f92</webElementGuid>
+      <webElementGuid>006ed26c-a471-410b-9d28-e0e4798b7800</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,71 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Approve Reklas')]</value>
-      <webElementGuid>a0869626-145e-4e68-bc22-4a4ec528d617</webElementGuid>
+      <webElementGuid>0befe2f6-7e1e-4964-93a7-c4966bcee523</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CP LABUHAN DELI'])[1]/following::a[1]</value>
+      <webElementGuid>37a71ee2-bc0f-4521-956e-1ba8b4fc29d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='KREDIT BERMASALAH'])[1]/following::a[1]</value>
+      <webElementGuid>350e3dfc-5bdd-4321-8918-3d85d084a44a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/preceding::a[1]</value>
+      <webElementGuid>d0426714-5c33-4937-9d57-a382e2b39b59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‹'])[1]/preceding::a[1]</value>
+      <webElementGuid>f72fc562-29aa-48d1-9de8-168af9ea3d0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Approve Reklas']/parent::*</value>
+      <webElementGuid>42eadadf-4400-4e95-afa2-7c1561f7123d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>5be9e5f6-74bc-46b2-a9e3-cc1bdfe1ba83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/a</value>
+      <webElementGuid>f1908aef-e552-42ad-9e52-0ddfca78dde0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Approve Reklas' or . = 'Approve Reklas')]</value>
+      <webElementGuid>ecc98dd6-fed3-4241-99ba-a8ecef5236a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,14 +152,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wilayah 6 Makasar'])[1]/following::a[1]</value>
       <webElementGuid>23c89d3a-d1f3-4359-bce7-709fca5b3c66</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='KREDIT BERMASALAH'])[1]/following::a[1]</value>
-      <webElementGuid>50f491c8-766e-41e3-b19c-4721681382f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,38 +168,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PAKAIAN JADI'])[1]/preceding::a[2]</value>
       <webElementGuid>0916ca40-37f6-4cfd-b332-ca47c8ce1d60</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Approve Reklas']/parent::*</value>
-      <webElementGuid>9f56e83f-e015-44ed-a7ac-15b7699ae5de</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '#')])[5]</value>
-      <webElementGuid>13cf7058-52f1-4a3e-9207-f173d1f7e7d3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td[9]/a</value>
-      <webElementGuid>0b8ef150-2857-464e-a62b-294271fbd824</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = '#' and (text() = 'Approve Reklas' or . = 'Approve Reklas')]</value>
-      <webElementGuid>9a2b64f3-420e-49fc-ba1b-e1f14c9e5a53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -176,22 +200,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='KREDIT BERMASALAH'])[4]/following::a[1]</value>
       <webElementGuid>accf3504-5424-4b5d-b089-baa5077953e3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/preceding::a[1]</value>
-      <webElementGuid>5395f6dd-b5d6-4e5f-8682-65e4ab826de7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='‹'])[1]/preceding::a[1]</value>
-      <webElementGuid>92acd4ea-1fbe-437c-8b74-1ecca6272329</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

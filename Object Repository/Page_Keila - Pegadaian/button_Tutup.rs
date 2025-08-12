@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d618a546-2a8b-4d19-8932-b7db0ca6afbe</webElementGuid>
+      <webElementGuid>d3cfbc9d-c9c4-4746-8780-4b2cdbedd197</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>268bb983-63a6-46f6-97d3-fe83f9d3f9af</webElementGuid>
+      <webElementGuid>f74ee5c1-e6cc-477b-bf27-9e2f9ff36006</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-danger</value>
-      <webElementGuid>537857dd-5d38-4ffb-8a40-a9a36fd6af34</webElementGuid>
+      <webElementGuid>e4045749-76d5-4772-9ae0-03d28c5967bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tutup</value>
-      <webElementGuid>ec4c61c7-adca-448f-a995-3a2b2b48b792</webElementGuid>
+      <webElementGuid>39b4c87e-eaa7-44c0-a16a-bc7cb6dffc44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modal___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn btn-danger&quot;]</value>
-      <webElementGuid>0c63121f-7ee7-4d98-99db-04c913c525ba</webElementGuid>
+      <webElementGuid>7839b140-1c7b-4b40-a316-550969754aca</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>77ff294b-4290-46bf-8e2f-1647d9bdd4f5</webElementGuid>
+      <webElementGuid>642ff88e-a963-4d1b-afa0-e7f58a5522d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//footer[@id='modal___BV_modal_footer_']/div/button</value>
-      <webElementGuid>bd617a41-614a-4038-99a6-10719cfe2f9a</webElementGuid>
+      <webElementGuid>37cbf2f1-aa28-4dba-9722-54d452b496bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Berkas F-BM1'])[1]/following::button[1]</value>
-      <webElementGuid>a34aeabf-ade9-4df8-8ba3-9c6f1276627e</webElementGuid>
+      <webElementGuid>8eeb0145-29dc-4ec7-ae36-a3ebed9ecbe2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan berhasil dikirim'])[1]/following::button[2]</value>
-      <webElementGuid>66b3ce4c-5ece-4484-8164-4eaef7a7eb59</webElementGuid>
+      <webElementGuid>047f237e-be96-48ca-9b17-a9000c0f15a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tutup']/parent::*</value>
-      <webElementGuid>f95a4c47-f422-480a-aad9-006e7113b349</webElementGuid>
+      <webElementGuid>1f695d14-1f75-4246-8c9c-a5b6e9e88bb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div/footer/div/button</value>
-      <webElementGuid>5ea19ac3-d3bd-4c58-aa20-f5d1b237415d</webElementGuid>
+      <webElementGuid>8a16b7cc-0fb6-4f23-8181-c79ddbe28216</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Tutup' or . = 'Tutup')]</value>
-      <webElementGuid>1995fb58-4b17-4d87-b8d8-363ca0c398a3</webElementGuid>
+      <webElementGuid>92abdb8e-cc97-4a03-95ef-d664a6a4efbd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
