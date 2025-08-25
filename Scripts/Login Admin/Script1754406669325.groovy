@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.baseUrl)
-
 WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
 WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__8'), GlobalVariable.username)
 
