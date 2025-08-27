@@ -6,12 +6,12 @@
    <elementGuidId>c1041b96-0f2a-4596-a575-57a33d91f909</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-primary</value>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-block</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,23 +23,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8ced2f1c-de21-4bbe-9010-f051a935a47a</webElementGuid>
+      <webElementGuid>922ebc96-d1f7-46d1-90d0-c9431af66587</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>ba578803-ea8b-4365-b43d-160df286cb45</webElementGuid>
+      <value>submit</value>
+      <webElementGuid>f15f2275-22dd-4c3a-a13b-567633d618bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary</value>
-      <webElementGuid>f64eeb44-655a-4bf7-8a86-e92fd50cf71a</webElementGuid>
+      <value>btn btn-primary btn-block</value>
+      <webElementGuid>fcc3d7fb-2e50-4313-913f-23f0a1d9cad8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,18 +47,82 @@
       <name>text</name>
       <type>Main</type>
       <value>Filter</value>
-      <webElementGuid>5d913957-96e5-44ad-a0ae-cf0c44edbe78</webElementGuid>
+      <webElementGuid>a61fe963-fb6d-4613-92fd-781c2aa6c323</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pkKBPersetujuan&quot;)/div[@class=&quot;mb-3&quot;]/form[@class=&quot;form-inline&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>58a734b8-44e1-496d-a835-0972bed420eb</webElementGuid>
+      <value>id(&quot;laporanMBBermasalah&quot;)/div[@class=&quot;mb-3&quot;]/form[1]/div[@class=&quot;form-row&quot;]/div[@class=&quot;mb-2 col-md-3&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
+      <webElementGuid>55dcc318-c85f-4404-af3c-293eb90b39e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>77782c17-edd8-4747-b028-a9a1a6419f38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='laporanMBBermasalah']/div[2]/form/div/div[6]/button</value>
+      <webElementGuid>14c876f9-8d88-4c0e-8315-abe14defb11a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konsolidasi'])[1]/following::button[1]</value>
+      <webElementGuid>b98d145e-aa16-42eb-acfd-a280f7cdd4c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[6]/following::button[1]</value>
+      <webElementGuid>16b2be29-2b7d-460e-ad72-f74adccb46f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor'])[1]/preceding::button[1]</value>
+      <webElementGuid>26ee90f3-ed19-4ac2-82c2-fd6b756e370e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Kredit'])[1]/preceding::button[1]</value>
+      <webElementGuid>88ab7419-9a51-4081-a83b-3defdc279f25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/button</value>
+      <webElementGuid>02424443-3f64-4630-bc81-883e0c9bd05c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Filter' or . = 'Filter')]</value>
+      <webElementGuid>200f20a6-f354-4214-b078-41a76955c380</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -88,14 +152,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Persetujuan'])[2]/following::button[1]</value>
       <webElementGuid>a8a4a68d-5822-4af8-874c-b20e9f4728df</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Kredit'])[1]/preceding::button[1]</value>
-      <webElementGuid>2f04fc49-74d7-4826-9a5a-d9eb60ddb06c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

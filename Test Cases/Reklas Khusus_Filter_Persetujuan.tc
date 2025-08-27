@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Pengajuan Reklas Khusus_Ditolak</name>
+   <name>Reklas Khusus_Filter_Persetujuan</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>7e743f66-2d4e-4605-891f-32c18f06dd5e</testCaseGuid>
+   <testCaseGuid>bcb8a82f-2ee0-4145-a643-b0beabdab814</testCaseGuid>
 </TestCaseEntity>

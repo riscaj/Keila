@@ -6,12 +6,12 @@
    <elementGuidId>8861ce1e-d786-4298-a3c5-2b6616568bf9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#modalFormAjukanReklas___BV_modal_footer_ > div > button.btn.btn-primary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[6]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#modalFormAjukanReklas___BV_modal_footer_ > div > button.btn.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>80434820-ce22-465b-92a1-cf275d328781</webElementGuid>
+      <webElementGuid>72d3fe65-28a4-4f08-9497-357394799d51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b2ea3b3b-c6a9-42bc-85d3-8c505975d4ba</webElementGuid>
+      <webElementGuid>f93c3647-1bed-4950-bffa-3ae47cdf40ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>ae2abeb1-2759-48f1-af9b-491fc8d7d5c3</webElementGuid>
+      <webElementGuid>af3686fe-3553-4ae5-a1da-dd8bf8e08fd7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Simpan</value>
-      <webElementGuid>639e2916-cdb5-4d2b-8b90-c396ad9f2864</webElementGuid>
+      <webElementGuid>b3e1e58f-865a-4956-8a5a-23266181ce91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modalFormAjukanReklas___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>0d5845c1-bedf-4549-831d-4f6eb6791cc7</webElementGuid>
+      <webElementGuid>c4132321-6f27-46bb-8681-1d0047bdf700</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>de12db3d-4e83-4ee9-8339-769a8848fa4f</webElementGuid>
+      <webElementGuid>88ee4e45-8cab-4ace-bfa8-23136ef90ae7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,39 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//footer[@id='modalFormAjukanReklas___BV_modal_footer_']/div/button</value>
-      <webElementGuid>02772281-d23c-4e21-90c4-17efe304e988</webElementGuid>
+      <webElementGuid>1c86baf8-5422-40e8-94e5-ca2c2f88ddef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::button[1]</value>
+      <webElementGuid>77506ca1-6029-4cec-9e10-334496c87e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
+      <webElementGuid>4a89a6ff-3ca8-4edd-8698-319d59a7dff4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/div/button</value>
+      <webElementGuid>79066f61-1a2e-42e7-9ecd-62b8559b1009</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Simpan' or . = 'Simpan')]</value>
+      <webElementGuid>15ed4f8c-d120-41d2-8470-e9e1a2744c92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,29 +120,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='* PDF, Max 2MB'])[1]/following::button[1]</value>
       <webElementGuid>d002c753-0a34-4225-87f9-7c1cf945df57</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
-      <webElementGuid>a5637a72-8a6a-4fcc-b687-31c0c7f1bfe1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//footer/div/button</value>
-      <webElementGuid>df42a185-4e2d-4e13-be09-fe6c4b51776b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Simpan' or . = 'Simpan')]</value>
-      <webElementGuid>090b0c51-217f-465a-944f-2151f7b9b3f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

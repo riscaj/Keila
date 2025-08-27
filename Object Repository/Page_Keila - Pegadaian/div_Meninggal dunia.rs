@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Meninggal dunia</name>
+   <tag></tag>
+   <elementGuidId>6c6420f9-8bd4-42f7-aeda-1cdc81e745af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__536']/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1699a849-2ef3-489d-b3b6-5a5525da7b18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-sm-6 d-inline-block mb-2 custom-control custom-checkbox</value>
+      <webElementGuid>67c1fc36-3983-466e-8eac-c95a23a30f0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Meninggal dunia</value>
+      <webElementGuid>ebef4b77-93f8-4781-8768-30acb9b880f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__536&quot;)/div[1]/div[@class=&quot;col-sm-6 d-inline-block mb-2 custom-control custom-checkbox&quot;]</value>
+      <webElementGuid>a986f54c-a82e-4c60-99a3-11e9bcbdabc1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__536']/div/div[2]</value>
+      <webElementGuid>f13d2776-fdaf-4718-8026-98ae1d916dd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usaha Bangkrut'])[1]/following::div[1]</value>
+      <webElementGuid>1d9ea56f-cf53-4e8b-baa9-3d5d2268c514</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='* pilih minimal 2 kriteria'])[1]/following::div[2]</value>
+      <webElementGuid>96ef4f0a-e780-4aa0-be73-56af57135f5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak diketahui domisili'])[1]/preceding::div[1]</value>
+      <webElementGuid>303c76e8-a118-45dd-aead-3008dec74193</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset/div/div[2]</value>
+      <webElementGuid>dc764903-98ec-4b28-bbff-753cc0375ec8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Meninggal dunia' or . = 'Meninggal dunia')]</value>
+      <webElementGuid>02e1f9a5-b26f-4f78-bdf6-38d968a682a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

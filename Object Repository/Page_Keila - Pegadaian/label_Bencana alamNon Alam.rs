@@ -6,12 +6,12 @@
    <elementGuidId>b8dd692b-4dd7-4ec2-8eab-466faae18736</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__536']/div/div[4]/label</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//fieldset[@id='__BVID__517']/div/div[3]/label</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>c7b9eb73-9ad1-47d3-a75e-c6939e2a07be</webElementGuid>
+      <webElementGuid>72c2479a-b182-4deb-9056-06de3669cb46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +31,15 @@
       <name>class</name>
       <type>Main</type>
       <value>custom-control-label</value>
-      <webElementGuid>3c398e3f-37d0-4d6c-a061-b92b1380c7b8</webElementGuid>
+      <webElementGuid>bbc630ac-9d84-4a96-a114-0f412fcb6301</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>__BVID__520</value>
-      <webElementGuid>3f4deb11-a9ea-4eb8-a504-c9eda43f23ca</webElementGuid>
+      <value>__BVID__540</value>
+      <webElementGuid>65da6a70-49c8-43ed-aa78-9a3a14c019ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,18 +47,82 @@
       <name>text</name>
       <type>Main</type>
       <value>Bencana alam/Non Alam</value>
-      <webElementGuid>47c00ac2-fe77-499c-bf61-1f1ba008e4d4</webElementGuid>
+      <webElementGuid>05a40739-70b2-4eca-9a98-48e651b9bda5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__517&quot;)/div[1]/div[@class=&quot;col-sm-6 d-inline-block mb-2 custom-control custom-checkbox&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
-      <webElementGuid>d33140f5-82e3-4a11-8c13-f67d4ff04d94</webElementGuid>
+      <value>id(&quot;__BVID__536&quot;)/div[1]/div[@class=&quot;col-sm-6 d-inline-block mb-2 custom-control custom-checkbox&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
+      <webElementGuid>938e6076-9503-44d7-a535-20bf31ffe38d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__536']/div/div[4]/label</value>
+      <webElementGuid>5db2d6fc-36fb-49f4-9399-a75041fcb16f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak diketahui domisili'])[1]/following::label[1]</value>
+      <webElementGuid>6d8f4c05-acf1-438a-96be-e854a3350f95</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Meninggal dunia'])[1]/following::label[2]</value>
+      <webElementGuid>977653d6-05c0-404b-a329-6fcfd82a3f4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kerusuhan'])[1]/preceding::label[1]</value>
+      <webElementGuid>b475ac92-8df5-45f2-af89-ad7466d49625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perubahan cabang konven menjadi syariah'])[1]/preceding::label[2]</value>
+      <webElementGuid>020f85bc-8380-47fd-9568-a9903ea34ff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Bencana alam/Non Alam']/parent::*</value>
+      <webElementGuid>0bb58d2f-7424-460a-b99b-89d5bce5ad55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/label</value>
+      <webElementGuid>0e711a55-2a8f-4337-8dc2-542470f2ce4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Bencana alam/Non Alam' or . = 'Bencana alam/Non Alam')]</value>
+      <webElementGuid>87831202-b189-4731-8722-942ec4a7cdbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -92,26 +156,10 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Bencana alam/Non Alam']/parent::*</value>
-      <webElementGuid>e1a1aa16-a3b8-4173-a674-a7a48089b86d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/label</value>
       <webElementGuid>50fa5a82-f933-4be4-b74d-a8a7658e8b4f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//label[(text() = 'Bencana alam/Non Alam' or . = 'Bencana alam/Non Alam')]</value>
-      <webElementGuid>b1e72f79-12fa-440d-9ff4-9b45a66b4ec8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

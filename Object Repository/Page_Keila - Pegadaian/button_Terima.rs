@@ -6,12 +6,12 @@
    <elementGuidId>06e42438-248c-4594-9fed-7b1af32e91e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.mr-2.btn-primary</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.mr-2.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>76763a07-ce4d-4260-9c6f-be02fcdce67a</webElementGuid>
+      <webElementGuid>e9d331a6-5112-4709-9a3b-b4bbb4d9f721</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>23f7b396-cb2b-4e83-b2e1-312ed54e6124</webElementGuid>
+      <webElementGuid>f42e3211-9ecf-40ef-802e-24990ba115c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn mr-2 btn-primary</value>
-      <webElementGuid>ad18e75f-2398-4c80-aae9-72b19435958b</webElementGuid>
+      <webElementGuid>befde117-29b4-4cdd-b346-608c6080a0f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Terima</value>
-      <webElementGuid>84c2d5f3-7a0d-4e4e-a968-e6df09f224b2</webElementGuid>
+      <webElementGuid>fa7019fb-7f44-443a-9834-6b3be5a05bce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modalPersetujuan___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn mr-2 btn-primary&quot;]</value>
-      <webElementGuid>e688b993-d2e0-483a-948c-b82651c41531</webElementGuid>
+      <webElementGuid>f25eb78a-8fc1-4d35-8b90-4df4215d66ed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>f5bb372e-238e-4724-be35-acebdd46e601</webElementGuid>
+      <webElementGuid>cfdd6822-57b6-4045-b8e3-bd182678954e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//footer[@id='modalPersetujuan___BV_modal_footer_']/div/button</value>
-      <webElementGuid>781173de-b10a-47f9-989d-ddf9ed6058fa</webElementGuid>
+      <webElementGuid>06416f71-6431-47fe-a4fb-007317013b81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alokasi Penyisihan Piutang Mitra Bermasalah - Sektor Perdagangan'])[1]/following::button[1]</value>
-      <webElementGuid>cab8729b-47cb-409d-a1b8-6a53ba627cda</webElementGuid>
+      <webElementGuid>6b4390b4-c2ab-426e-9044-82d1089f803e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alokasi Penyisihan Piutang Pinjaman Mitra Binaan - Sek. Perdagangan'])[1]/following::button[1]</value>
-      <webElementGuid>2fa7f7c8-985f-48e9-bd8d-72f5d4772d94</webElementGuid>
+      <webElementGuid>f3800af1-26b9-4456-9685-76fc0fd850e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tolak'])[1]/preceding::button[1]</value>
-      <webElementGuid>b68d03ee-5a77-4e73-9cb8-4dd4d0d2b83c</webElementGuid>
+      <webElementGuid>7c760851-4579-48cb-ad6a-8d48e8b9589c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Terima']/parent::*</value>
-      <webElementGuid>8067116e-3be4-4cdf-9ad0-641056a5fe1d</webElementGuid>
+      <webElementGuid>22c00f8a-1640-4912-b54e-ee844734121a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button</value>
-      <webElementGuid>47d3930d-bf54-44c4-a015-789f08551838</webElementGuid>
+      <webElementGuid>9fec449a-cce0-421b-b7b3-1882b44650e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Terima' or . = 'Terima')]</value>
-      <webElementGuid>2a676ab4-7079-4ce5-bbd8-6c89316bab03</webElementGuid>
+      <webElementGuid>dd39a062-ac28-49bd-b900-7cd17a0c3a23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

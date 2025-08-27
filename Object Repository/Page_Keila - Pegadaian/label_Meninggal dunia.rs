@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Menyetujui</name>
+   <name>label_Meninggal dunia</name>
    <tag></tag>
-   <elementGuidId>c4f73c33-1e33-4d97-aea1-fd48a1ba203b</elementGuidId>
+   <elementGuidId>d7425f76-92b2-4668-ae44-b459443924b1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <value>//fieldset[@id='__BVID__536']/div/div[2]/label</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.btn-block</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,103 +22,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>f4f5c0e4-0bab-4f76-b386-557cdd30cb4f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>616f3434-31f3-41fc-bb73-d3c60201fd3e</webElementGuid>
+      <value>label</value>
+      <webElementGuid>50aef8a1-5747-49ea-8206-0408a986cdcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block</value>
-      <webElementGuid>59717daf-903f-4969-89d9-e9e19cd312fc</webElementGuid>
+      <value>custom-control-label</value>
+      <webElementGuid>941495b4-f9e5-4d46-94ce-39517a64afbb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>__BVID__538</value>
+      <webElementGuid>6e68a4c1-0960-445d-b950-8f01683a21b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Menyetujui</value>
-      <webElementGuid>66f72a42-3600-4709-b7d4-0574f199b77d</webElementGuid>
+      <value>Meninggal dunia</value>
+      <webElementGuid>bb7feee0-b07e-4047-a6a6-5b1cead91934</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modalAjukanReklas___BV_modal_footer_&quot;)/div[@class=&quot;w-100&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-3 mb-md-0 col-md-6&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>185edd31-9ba9-4048-a6de-57c8c6444f53</webElementGuid>
+      <value>id(&quot;__BVID__536&quot;)/div[1]/div[@class=&quot;col-sm-6 d-inline-block mb-2 custom-control custom-checkbox&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
+      <webElementGuid>08627c9c-bf0e-41e4-8ec9-f385c7c06af5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>5e3f52d6-7d37-4759-a232-22d937dc9cd8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//footer[@id='modalAjukanReklas___BV_modal_footer_']/div/div/div/button</value>
-      <webElementGuid>2bf8c13e-f760-49ad-ad4d-d8f7850d552a</webElementGuid>
+      <value>//fieldset[@id='__BVID__536']/div/div[2]/label</value>
+      <webElementGuid>5f5ea2e8-39b4-483d-bef2-523e0cc8774b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Pencairan'])[1]/following::button[1]</value>
-      <webElementGuid>4f3d808a-0ecc-4382-8f57-bf29ed8cc21d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usaha Bangkrut'])[1]/following::label[1]</value>
+      <webElementGuid>7e680abe-8e44-422a-8e35-d515f75e72c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jangka Waktu'])[1]/following::button[1]</value>
-      <webElementGuid>967c3fbf-af2f-4f98-9f5e-943cfcfd996e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='* pilih minimal 2 kriteria'])[1]/following::label[2]</value>
+      <webElementGuid>b0f05f2c-96c8-4736-8c20-041fe1eb2147</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menolak'])[1]/preceding::button[1]</value>
-      <webElementGuid>05c21b50-20d0-47d9-996f-f4f5a0c0b8fb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak diketahui domisili'])[1]/preceding::label[1]</value>
+      <webElementGuid>c3bfec23-8386-4eb6-9e51-eae2ac7437c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Menyetujui']/parent::*</value>
-      <webElementGuid>91104c64-1bb1-4820-b956-263e11fc35f7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bencana alam/Non Alam'])[1]/preceding::label[2]</value>
+      <webElementGuid>09a3f5f9-1838-4380-83f8-afc8e0d42cc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Meninggal dunia']/parent::*</value>
+      <webElementGuid>ccef510b-1074-4714-8464-bb1df2eb2145</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/button</value>
-      <webElementGuid>ffe9230d-109c-460d-afb3-cf157f13c30a</webElementGuid>
+      <value>//div[2]/label</value>
+      <webElementGuid>5136f684-ded1-44f8-887c-da336a038f64</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Menyetujui' or . = 'Menyetujui')]</value>
-      <webElementGuid>82b71ad1-715b-4d02-842a-a75815de7ccb</webElementGuid>
+      <value>//label[(text() = 'Meninggal dunia' or . = 'Meninggal dunia')]</value>
+      <webElementGuid>e22b4963-e7df-48f7-90c2-69e78446214d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

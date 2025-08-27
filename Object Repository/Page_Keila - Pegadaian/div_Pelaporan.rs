@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Program Kemitraan</name>
+   <name>div_Pelaporan</name>
    <tag></tag>
-   <elementGuidId>cf1d5740-df92-4871-a607-5048b8ab2be1</elementGuidId>
+   <elementGuidId>da01d783-2dc1-4545-8612-bab562b04e15</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::div[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Target BL'])[1]/following::div[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.nav-link.nav-dropdown-toggle</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8bef1a7c-1cff-4bc8-a979-5e28d4571fc2</webElementGuid>
+      <webElementGuid>771ad08c-1bee-4d57-b845-316fda610e9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +31,15 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link nav-dropdown-toggle</value>
-      <webElementGuid>a843135d-18fe-4d58-bfa8-a8d77442f5fe</webElementGuid>
+      <webElementGuid>40dfbd4e-68b5-470e-96de-fd8882169e48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Program Kemitraan</value>
-      <webElementGuid>c107847c-c095-42d6-ba3f-b379d03c5199</webElementGuid>
+      <value> Pelaporan</value>
+      <webElementGuid>8d935a30-9f66-46de-b95d-d6d0da395204</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,62 +47,62 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown&quot;]/div[@class=&quot;nav-link nav-dropdown-toggle&quot;]</value>
-      <webElementGuid>6692f06e-5626-4dbe-bf2a-960d1f98f723</webElementGuid>
+      <webElementGuid>7e0d3d66-660d-4b00-8261-61849f020797</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::div[1]</value>
-      <webElementGuid>5e0531c7-f14b-432d-8c21-9c0facbcc16b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Target BL'])[1]/following::div[1]</value>
+      <webElementGuid>ef7b7e6f-71c4-4b4f-bb2e-adc73c8e58a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[4]</value>
-      <webElementGuid>566867f1-8830-466f-8a72-3d534db0d488</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Target PK'])[1]/following::div[1]</value>
+      <webElementGuid>b06ad5e6-f762-4ec1-a393-c1b601246c83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penyaluran'])[1]/preceding::div[1]</value>
-      <webElementGuid>02403f06-d20e-4222-861a-3a58e0ebed7e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan PK'])[1]/preceding::div[1]</value>
+      <webElementGuid>cc2fec4d-2adb-4664-b332-168294c608f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Mitra Binaan'])[1]/preceding::div[2]</value>
-      <webElementGuid>605f7799-644d-434f-b352-4351b0a82fe8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Nama Mitra Binaan'])[1]/preceding::div[2]</value>
+      <webElementGuid>7bcbbf3f-bc0b-4318-aad0-03759143e0f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Program Kemitraan']/parent::*</value>
-      <webElementGuid>456097c2-a96a-4a6b-837b-dbb7575e67e3</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Pelaporan']/parent::*</value>
+      <webElementGuid>57d60852-1e83-4181-ad6d-2b1754a99352</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/div</value>
-      <webElementGuid>5b134975-0380-48d7-b11c-9941de430122</webElementGuid>
+      <value>//li[8]/div</value>
+      <webElementGuid>a3bd8673-9cd5-4180-bbae-5182fcea8057</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = ' Program Kemitraan' or . = ' Program Kemitraan')]</value>
-      <webElementGuid>a0a4ea2e-d4ad-4de6-9364-c1968d0a0956</webElementGuid>
+      <value>//div[(text() = ' Pelaporan' or . = ' Pelaporan')]</value>
+      <webElementGuid>564cec94-d7d7-4456-b30d-60669c5ad4c2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

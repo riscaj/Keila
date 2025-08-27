@@ -6,12 +6,12 @@
    <elementGuidId>2b86d100-d186-44d8-a7e6-68f26093c06c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.btn.btn-danger</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-danger</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c54939c8-ecb8-46de-ab5d-2af859775c32</webElementGuid>
+      <webElementGuid>f714078f-6001-4f6a-87ec-55d9555d3780</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>70aeab81-3089-43f2-abe8-850efb7a62e6</webElementGuid>
+      <webElementGuid>d72d3d66-732f-4a96-8e69-1ca3c6547188</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-danger</value>
-      <webElementGuid>e4b461bd-e3b1-45e7-9e21-d27f66926cf1</webElementGuid>
+      <webElementGuid>9cb8d26d-bf2a-4092-b114-4f9bd229e6ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tutup</value>
-      <webElementGuid>8dfa4e34-ec50-48ca-b396-e9cfd729af2d</webElementGuid>
+      <webElementGuid>26d7e66b-8480-4e00-b770-da84cbf80539</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modal___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn btn-danger&quot;]</value>
-      <webElementGuid>818a7654-cec5-4691-abe6-99c1a99dd0a6</webElementGuid>
+      <webElementGuid>eecdfb66-7cae-4277-b886-c4e65f819e60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>77e4b096-52b9-4dd3-9dea-e9eab46da3c4</webElementGuid>
+      <webElementGuid>3976a0a2-d9ab-4882-83ae-f746802f5c98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,15 +71,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//footer[@id='modal___BV_modal_footer_']/div/button</value>
-      <webElementGuid>06671108-6615-401d-9f6c-dec312b2a49f</webElementGuid>
+      <webElementGuid>f63e79ed-d7ef-4761-bbb2-4106311e0201</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berkas F-BM2a'])[1]/following::button[1]</value>
-      <webElementGuid>d46bd78b-c193-44c5-bc19-e9a1b6139c8f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berkas F-BM2'])[1]/following::button[1]</value>
+      <webElementGuid>094faf1b-12b7-4416-9c61-c785660d69cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reklas berhasil diterima'])[1]/following::button[2]</value>
-      <webElementGuid>33271684-ed68-4eec-b50e-375c62035ec2</webElementGuid>
+      <webElementGuid>a167ce6f-119c-4bb0-b12b-952fda6f2175</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Tutup']/parent::*</value>
-      <webElementGuid>5173297b-481b-400b-9af3-acd582f4da10</webElementGuid>
+      <webElementGuid>ebf9636a-3594-4e9a-8d97-d5ca3249abf5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//footer/div/button</value>
-      <webElementGuid>25058326-1902-4d7f-8c36-025b2fccf0d4</webElementGuid>
+      <webElementGuid>16850f4d-ad5d-4cb8-a798-8a8de87970be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Tutup' or . = 'Tutup')]</value>
-      <webElementGuid>e1cc3fbb-36fd-4922-be3b-4fc3a0a90602</webElementGuid>
+      <webElementGuid>bba24d51-cd00-4a78-82fe-177590f6bb2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berkas F-BM2a'])[1]/following::button[1]</value>
+      <webElementGuid>1f96af12-4b33-4c21-ace7-b953f529f90a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

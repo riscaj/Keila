@@ -6,12 +6,12 @@
    <elementGuidId>bed4e17e-d3d0-4b8c-8c76-663cc8fed75b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-sm.btn-success</value>
+         <key>XPATH</key>
+         <value>//table[@id='__BVID__513']/tbody/tr/td[9]/a</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='__BVID__508']/tbody/tr/td[9]/a</value>
+         <key>CSS</key>
+         <value>a.btn.btn-sm.btn-success</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1e528e57-a760-4a6f-945b-d2b221bb8a4c</webElementGuid>
+      <webElementGuid>a7b4bdcf-a157-4b29-bf56-e505c7a95ecf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_self</value>
-      <webElementGuid>b038b3f6-5c3e-4cf5-bc11-8ec76af161e5</webElementGuid>
+      <webElementGuid>82da10bf-7301-4fcf-b294-7132e1900016</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>8f260c5e-6c7d-478b-8a8e-959c03799e92</webElementGuid>
+      <webElementGuid>7da691fb-e6d1-4389-bee7-dbd6e2f53b84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-sm btn-success</value>
-      <webElementGuid>0fac911d-4cca-45f5-9700-e050a7ce04d3</webElementGuid>
+      <webElementGuid>8a543bdf-4e0d-4db4-8d48-2e44f1cad249</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,23 +55,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Ajukan Reklas</value>
-      <webElementGuid>d8d1feea-33fe-4daf-8be5-e9c4ce64aa0a</webElementGuid>
+      <webElementGuid>91158c42-e783-4a8a-8026-e10c8d61b287</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__508&quot;)/tbody[1]/tr[1]/td[9]/a[@class=&quot;btn btn-sm btn-success&quot;]</value>
-      <webElementGuid>16e5330c-22ab-488a-bb64-e247c3db0386</webElementGuid>
+      <value>id(&quot;__BVID__513&quot;)/tbody[1]/tr[1]/td[9]/a[@class=&quot;btn btn-sm btn-success&quot;]</value>
+      <webElementGuid>19b6bf20-2402-41bd-b4ac-5d122b084cf5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='__BVID__508']/tbody/tr/td[9]/a</value>
-      <webElementGuid>b6cc0038-446b-411e-b84c-e673b675a940</webElementGuid>
+      <value>//table[@id='__BVID__513']/tbody/tr/td[9]/a</value>
+      <webElementGuid>eea64fe5-67f6-4598-801b-84ba836cb04c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,119 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Ajukan Reklas')]</value>
-      <webElementGuid>67b45ec4-38b5-4534-8aae-5871eba226d7</webElementGuid>
+      <webElementGuid>0e375619-8391-42ca-9e18-928b50e5832a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CP SUNGAI RAYA'])[1]/following::a[1]</value>
+      <webElementGuid>23a20de8-f4d7-454f-a206-4dd29450572d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RECONDITIONING'])[1]/following::a[1]</value>
+      <webElementGuid>013fdc27-6ca5-4e4f-b8b3-15124c3f19cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='setIo budi raharjo'])[1]/preceding::a[1]</value>
+      <webElementGuid>baacb84b-b4ec-40e3-9789-18f40539445d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BUD SERVICE'])[1]/preceding::a[2]</value>
+      <webElementGuid>b37e04f5-af7d-4cb8-b5e3-1fc52cc2b17b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>270b1b30-0e2a-4478-bcd2-f334cf395a6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[9]/a</value>
+      <webElementGuid>b159a66e-dfea-4b57-a84a-75ef4633fac2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#' and (text() = 'Ajukan Reklas' or . = 'Ajukan Reklas')]</value>
+      <webElementGuid>5e171b1b-35e0-44ca-9d9f-8658d30331b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CP SANGGAU'])[1]/following::a[1]</value>
+      <webElementGuid>8d408732-8c1b-429c-80fe-4b18114e0cf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='nurhayati'])[1]/preceding::a[1]</value>
+      <webElementGuid>ff3bbee1-3442-44a3-8f5f-e5638e1a029f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='risalah konveksi'])[1]/preceding::a[2]</value>
+      <webElementGuid>77ef6637-9f14-4c53-ae4d-ebff754edae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CP SAMARINDA'])[1]/following::a[1]</value>
+      <webElementGuid>26821238-59b6-4110-92e2-44d938b0db43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YUDHA KUSDHAYANTO'])[1]/preceding::a[1]</value>
+      <webElementGuid>3dbc3244-3024-4f1a-be18-6398b8de0614</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CAFE TEPIAN KAPUAS'])[1]/preceding::a[2]</value>
+      <webElementGuid>1e068378-22cf-4f00-8552-b642f9963eab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='__BVID__508']/tbody/tr/td[9]/a</value>
+      <webElementGuid>b6cc0038-446b-411e-b84c-e673b675a940</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,30 +224,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='‹'])[1]/preceding::a[1]</value>
       <webElementGuid>854e853b-75d1-4d16-9c2d-0f7ace2e57f5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, '#')])[5]</value>
-      <webElementGuid>545102af-fe4d-483b-8b85-f255677ce4c1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//td[9]/a</value>
-      <webElementGuid>3827a8b8-ce44-4fce-a514-6c3fe70368d6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = '#' and (text() = 'Ajukan Reklas' or . = 'Ajukan Reklas')]</value>
-      <webElementGuid>6d27832a-b3a7-425e-819c-b32585ce5cee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
