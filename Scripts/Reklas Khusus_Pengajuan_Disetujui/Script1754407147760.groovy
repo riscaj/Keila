@@ -38,12 +38,15 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Kredit 
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Pengajuan'))
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Tambah'))
+TestObject tambahBtn = new TestObject('tambahBtn')
+tambahBtn.addProperty("xpath", ConditionType.EQUALS, "//a[normalize-space(text())='Tambah']")
+WebUI.waitForElementClickable(tambahBtn, 10)
+WebUI.click(tambahBtn)
 
 //Input Nomor Kredit
 TestObject nomorKreditInput = new TestObject()
 nomorKreditInput.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Kredit\']')
-WebUI.setText(nomorKreditInput, '1311001210015')
+WebUI.setText(nomorKreditInput, '1313121230010')
 
 //Click Button Cari Data
 TestObject cariDataBtn = new TestObject()
