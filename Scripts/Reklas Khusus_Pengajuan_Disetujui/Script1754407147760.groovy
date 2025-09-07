@@ -39,43 +39,60 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Kredit 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Pengajuan'))
 
 TestObject tambahBtn = new TestObject('tambahBtn')
-tambahBtn.addProperty("xpath", ConditionType.EQUALS, "//a[normalize-space(text())='Tambah']")
+
+tambahBtn.addProperty('xpath', ConditionType.EQUALS, '//a[normalize-space(text())=\'Tambah\']')
+
 WebUI.waitForElementClickable(tambahBtn, 10)
+
 WebUI.click(tambahBtn)
 
 //Input Nomor Kredit
 TestObject nomorKreditInput = new TestObject()
+
 nomorKreditInput.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Kredit\']')
-WebUI.setText(nomorKreditInput, '1313121230010')
+
+WebUI.setText(nomorKreditInput, '1110102180011')
 
 //Click Button Cari Data
 TestObject cariDataBtn = new TestObject()
+
 cariDataBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Cari Data\']')
+
 WebUI.click(cariDataBtn)
 
 //CLick Button Ajukan Reklas
 TestObject ajukanReklasBtn = new TestObject()
+
 ajukanReklasBtn.addProperty('xpath', ConditionType.EQUALS, '//a[normalize-space()=\'Ajukan Reklas\']')
+
 WebUI.click(ajukanReklasBtn)
 
 //Tick Kriteria Bencana
 TestObject kriteriaBencana = new TestObject()
+
 kriteriaBencana.addProperty('xpath', ConditionType.EQUALS, '//label[contains(., \'Bencana alam/Non Alam\')]')
+
 WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(kriteriaBencana, 10)))
 
 //Input Alasan Pengajuan
 TestObject alasanPengajuan = new TestObject()
+
 alasanPengajuan.addProperty('xpath', ConditionType.EQUALS, '//textarea[@placeholder=\'Alasan Pengajuan\']')
+
 WebUI.setText(alasanPengajuan, 'Banjir')
 
 //Upload File
 TestObject uploadFileInput = new TestObject()
+
 uploadFileInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'file\']')
+
 WebUI.uploadFile(uploadFileInput, '/Users/riscajulinarti/Documents/Pdf test file.pdf')
 
 //Click Save Button
 TestObject simpanBtn = new TestObject()
+
 simpanBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Simpan\']')
+
 WebUI.click(simpanBtn)
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tutup'))
@@ -85,7 +102,9 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Rekomenda
 
 //Select Rekomendasi
 TestObject btnRekomendasi = new TestObject('btnRekomendasi')
+
 btnRekomendasi.addProperty('xpath', ConditionType.EQUALS, '//table[contains(@class,\'table-bordered\')]/tbody/tr[1]//a[contains(text(),\'Rekomendasi\')]')
+
 WebUI.click(btnRekomendasi)
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Menyetujui'))
@@ -103,7 +122,9 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Persetuju
 
 //Select Persetujuan
 TestObject btnApproval = new TestObject('btnApproval')
+
 btnApproval.addProperty('xpath', ConditionType.EQUALS, '//table[contains(@class,\'table-bordered\')]/tbody/tr[1]//a[contains(text(),\'Approve\')]')
+
 WebUI.click(btnApproval)
 
 WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/textarea__alasan-approval'), 'ok')
@@ -118,7 +139,6 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tutu
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Pelaporan'))
 
-
 //Laporan MB Bermasalah
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Laporan PK'))
 
@@ -128,14 +148,20 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/label_Konso
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Filter'))
 
-
 //Laporan Bagan Akun
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Laporan Akuntansi'))
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Bagan Akun'))
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/label_Konsolidasi_1'))
+TestObject konsolidasiLabel = new TestObject('dynamicKonsolidasiLabel')
+
+konsolidasiLabel.addProperty('xpath', ConditionType.EQUALS, '//label[@for=\'konsolidasi\']')
+
+WebUI.click(konsolidasiLabel)
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Filter'))
 
+WebUI.delay(10)
+
 WebUI.closeBrowser()
+
