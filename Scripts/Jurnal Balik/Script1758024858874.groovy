@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.openBrowser('')
@@ -39,43 +40,41 @@ WebUI.waitForElementVisible(btnLogin, 10)
 WebUI.waitForElementClickable(btnLogin, 10)
 WebUI.click(btnLogin)
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Program Kemitraan'))
+TestObject menuTransaksiPKBL = new TestObject()
+menuTransaksiPKBL.addProperty("xpath", ConditionType.EQUALS, "//div[contains(text(),'Transaksi PKBL')]")
+WebUI.click(menuTransaksiPKBL)
 
-TestObject kreditBermasalahKhusus = new TestObject('kreditBermasalahKhusus')
-kreditBermasalahKhusus.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'nav-dropdown-toggle') and normalize-space()='Kredit Bermasalah Khusus']")
+TestObject subMenuJurnalBalik = new TestObject()
+subMenuJurnalBalik.addProperty("xpath", ConditionType.EQUALS, "//a[contains(text(),'Jurnal Balik')]")
+WebUI.click(subMenuJurnalBalik)
 
-WebUI.waitForElementClickable(kreditBermasalahKhusus, 10)
-WebUI.click(kreditBermasalahKhusus)
+TestObject kodejurnal = new TestObject()
+kodejurnal.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Bukti\']')
+WebUI.setText(kodejurnal, '20250916182532.PL')
 
-TestObject menuPengajuan = new TestObject('menuPengajuan')
-menuPengajuan.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@href,'/kredit-bermasalah-khusus/pengajuan')]")
+TestObject cariDataBtn = new TestObject()
+cariDataBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Cari Jurnal\']')
 
-WebUI.waitForElementClickable(menuPengajuan, 10)
-WebUI.click(menuPengajuan)
+WebUI.click(cariDataBtn)
 
-TestObject filternokredit = new TestObject('filternokredit')
-filternokredit.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Nomor Kredit']")
-WebUI.setText(filternokredit, "1100106150020")
 
-TestObject filterBtn = new TestObject()
-filterBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Filter\']')
-WebUI.click(filterBtn)
+TestObject koreksiBtn = new TestObject()
+koreksiBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Koreksi\']')
 
-WebUI.delay(10)
+WebUI.click(koreksiBtn)
 
-TestObject filternokredit1 = new TestObject('filternokredit')
-filternokredit1.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Nomor Kredit']")
-WebUI.setText(filternokredit1, "")
+TestObject fieldTanggal = new TestObject()
+fieldTanggal.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Tanggal']")
+WebUI.click(fieldTanggal)
 
-TestObject filternamaMB = new TestObject('filternokredit')
-filternamaMB.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Nama MB']")
-WebUI.setText(filternamaMB, "Baso")
+// Pilih tanggal 17 (ubah sesuai kebutuhan)
+TestObject pilihTanggal = new TestObject()
+pilihTanggal.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'vdp-datepicker__calendar')]//span[text()='17']")
+WebUI.click(pilihTanggal)
 
-TestObject filterBtn1 = new TestObject()
-filterBtn1.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Filter\']')
-WebUI.click(filterBtn1)
+TestObject simpanBtn = new TestObject()
+simpanBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Simpan\']')
 
-WebUI.delay(10)
+WebUI.click(simpanBtn)
 
 WebUI.closeBrowser()
-

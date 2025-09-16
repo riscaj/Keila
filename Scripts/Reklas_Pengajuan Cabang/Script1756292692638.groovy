@@ -22,53 +22,64 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://keila.internal.trivamas.com/admin')
+WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
-WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__8'), 'admin')
+//Login
+TestObject inputUsername = new TestObject('inputUsername')
+inputUsername.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Username atau NIK']")
+WebUI.setText(inputUsername, GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), 'RAIVpflpDOg=')
+TestObject inputPassword = new TestObject('inputPassword')
+inputPassword.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Password']")
+WebUI.setEncryptedText(inputPassword, GlobalVariable.password)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Login___BVID__10'), Keys.chord(Keys.ENTER))
+TestObject btnLogin = new TestObject('btnLogin')
+btnLogin.addProperty("xpath", ConditionType.EQUALS, "//button[@type='submit' and contains(@class,'btn-primary')]")
+WebUI.waitForElementVisible(btnLogin, 10)
+WebUI.waitForElementClickable(btnLogin, 10)
+WebUI.click(btnLogin)
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Program Kemitraan'))
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Kredit Bermasalah'))
+TestObject kreditBermasalah = new TestObject('kreditBermasalah')
+kreditBermasalah.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'nav-dropdown-toggle') and normalize-space()='Kredit Bermasalah']")
+
+WebUI.waitForElementClickable(kreditBermasalah, 10)
+WebUI.click(kreditBermasalah)
 
 //Pengajuan
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Pengajuan dari Cabang'))
+TestObject menuPengajuanCabang = new TestObject('menuPengajuanCabang')
+menuPengajuanCabang.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@href,'/kredit-bermasalah/cabang/pengajuan')]")
+
+WebUI.waitForElementClickable(menuPengajuanCabang, 10)
+WebUI.click(menuPengajuanCabang)
 
 TestObject btnTambah = new TestObject()
-
 btnTambah.addProperty('xpath', ConditionType.EQUALS, '//a[contains(text(),\'Tambah\')]')
 
 WebUI.click(btnTambah)
 
 TestObject btnAjukanReklas = new TestObject()
-
 btnAjukanReklas.addProperty('xpath', ConditionType.EQUALS, '(//a[contains(text(),\'Ajukan Reklas\')])[1]')
 
 WebUI.click(btnAjukanReklas)
 
 TestObject chkUsahaBangkrut = new TestObject()
-
 chkUsahaBangkrut.addProperty('xpath', ConditionType.EQUALS, '//label[contains(text(),\'Usaha Bangkrut\')]')
 
 WebUI.click(chkUsahaBangkrut)
 
 TestObject chkTidakDiketahuiDomisili = new TestObject()
-
 chkTidakDiketahuiDomisili.addProperty('xpath', ConditionType.EQUALS, '//label[contains(text(),\'Tidak diketahui domisili\')]')
 
 WebUI.click(chkTidakDiketahuiDomisili)
 
 TestObject txtAlasan = new TestObject()
-
 txtAlasan.addProperty('xpath', ConditionType.EQUALS, '//textarea[@name=\'alasan_pengajuan\' or @placeholder=\'Alasan Pengajuan\']')
 
 WebUI.setText(txtAlasan, 'Debitur tidak mampu membayar karena usaha bangkrut')
 
 TestObject btnSimpan = new TestObject()
-
 btnSimpan.addProperty('xpath', ConditionType.EQUALS, '//button[contains(text(),\'Simpan\')]')
 
 WebUI.click(btnSimpan)
@@ -76,10 +87,13 @@ WebUI.click(btnSimpan)
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tutup'))
 
 //Rekomendasi
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Rekomendasi dari Cabang'))
+TestObject menuRekomendasiCabang = new TestObject('menuRekomendasiCabang')
+menuRekomendasiCabang.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@href,'/kredit-bermasalah/cabang/rekomendasi')]")
+
+WebUI.waitForElementClickable(menuRekomendasiCabang, 10)
+WebUI.click(menuRekomendasiCabang)
 
 TestObject btnAjukanReklasRek = new TestObject()
-
 btnAjukanReklasRek.addProperty('xpath', ConditionType.EQUALS, '(//a[contains(text(),\'Ajukan Reklas\')])[1]')
 
 WebUI.click(btnAjukanReklasRek)
@@ -95,11 +109,13 @@ WebUI.waitForAlert(10)
 WebUI.acceptAlert()
 
 //Persetujuan
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Persetujuan dari Cabang'))
+TestObject menuPersetujuanCabang = new TestObject('menuPersetujuanCabang')
+menuPersetujuanCabang.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@href,'/kredit-bermasalah/cabang/persetujuan')]")
+
+WebUI.waitForElementClickable(menuPersetujuanCabang, 10)
+WebUI.click(menuPersetujuanCabang)
 
 TestObject btnApproveReklas = new TestObject()
-
-btnApproveReklas.addProperty('xpath', ConditionType.EQUALS, '(//a[contains(text(),\'Approve Reklas\')])[1]')
 
 WebUI.click(btnApproveReklas)
 
@@ -127,10 +143,13 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Filt
 //Laporan Bagan Akun
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Laporan Akuntansi'))
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Bagan Akun'))
+TestObject menuBaganAkun = new TestObject('menuBaganAkun')
+menuBaganAkun.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@href,'/pelaporan/akuntansi/bagan-akun-pk')]")
+
+WebUI.waitForElementClickable(menuBaganAkun, 10)
+WebUI.click(menuBaganAkun)
 
 TestObject konsolidasiLabel = new TestObject('dynamicKonsolidasiLabel')
-
 konsolidasiLabel.addProperty('xpath', ConditionType.EQUALS, '//label[@for=\'konsolidasi\']')
 
 WebUI.click(konsolidasiLabel)

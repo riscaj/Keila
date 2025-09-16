@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://keila.internal.trivamas.com/admin'</initValue>
+      <initValue>'https://keila-support-keila-dev.apps.ocp-dev.pegadaian.co.id/admin'</initValue>
       <name>baseUrl</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

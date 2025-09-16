@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Program Kemitraan</name>
+   <name>div_Admin PKBL</name>
    <tag></tag>
-   <elementGuidId>cf1d5740-df92-4871-a607-5048b8ab2be1</elementGuidId>
+   <elementGuidId>3af1e11f-f33c-4a49-b2ed-fc8e6bb9436d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.nav-link.nav-dropdown-toggle</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::div[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan Saldo Mata Anggaran'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>3972f7fe-c851-4c02-82d7-56784aa269a5</webElementGuid>
+      <webElementGuid>f3e9104a-f639-434d-a831-2a3f392104f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +31,15 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link nav-dropdown-toggle</value>
-      <webElementGuid>d901db05-bcf8-45df-9c0b-f98a34b831b1</webElementGuid>
+      <webElementGuid>e247e58f-2bec-4925-8b3a-b657a2f74fb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Program Kemitraan</value>
-      <webElementGuid>b4de9e37-8f44-43a9-85e4-8285aed1083a</webElementGuid>
+      <value> Admin PKBL</value>
+      <webElementGuid>81a8c7ab-e44b-4206-885f-ecc019f214ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,70 +47,62 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown&quot;]/div[@class=&quot;nav-link nav-dropdown-toggle&quot;]</value>
-      <webElementGuid>f22e9572-65de-492c-a6b2-a671989d21c0</webElementGuid>
+      <webElementGuid>01d11acd-b4cb-40eb-ac18-b73d45dc8775</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::div[1]</value>
-      <webElementGuid>fa7c0d6c-dc6c-4057-8927-0b169aa8eaef</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan Saldo Mata Anggaran'])[1]/following::div[1]</value>
+      <webElementGuid>02a0ff9a-464c-4e98-93c7-9721345e9749</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::div[4]</value>
-      <webElementGuid>5cec0f09-6c50-4120-abd2-1364e89ea9b4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan Kolektibilitas Program Kemitraan'])[1]/following::div[1]</value>
+      <webElementGuid>06a6223e-6da0-4020-be8a-fee55854c35b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penyaluran'])[1]/preceding::div[1]</value>
-      <webElementGuid>41b1ab69-09f0-4616-bd26-8411ddff2c04</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manajemen Role'])[1]/preceding::div[1]</value>
+      <webElementGuid>8aa3a4e5-6b1a-457b-8ecf-f13e713e0d10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Mitra Binaan - Penyaluran PK'])[1]/preceding::div[2]</value>
-      <webElementGuid>e8289b4b-a7e6-424a-854c-a81e2f6fcd06</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Role'])[1]/preceding::div[2]</value>
+      <webElementGuid>135c1cfb-87df-4dd8-9b69-38693993cfad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Program Kemitraan']/parent::*</value>
-      <webElementGuid>f5beb386-0f48-4342-9ce4-8197e034910c</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Admin PKBL']/parent::*</value>
+      <webElementGuid>be3b9174-abcc-4bbf-b2d0-b5de116127d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/div</value>
-      <webElementGuid>1ea7dcdb-e49e-4930-aed5-e7fc48758ce0</webElementGuid>
+      <value>//li[8]/div</value>
+      <webElementGuid>28f962e3-6c83-41d2-a7b9-e42299b605e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = ' Program Kemitraan' or . = ' Program Kemitraan')]</value>
-      <webElementGuid>8baf6400-224e-4190-bf11-4b740138b7f3</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Mitra Binaan'])[1]/preceding::div[2]</value>
-      <webElementGuid>605f7799-644d-434f-b352-4351b0a82fe8</webElementGuid>
+      <value>//div[(text() = ' Admin PKBL' or . = ' Admin PKBL')]</value>
+      <webElementGuid>26af36f4-2520-49e1-b917-21ac8a66322e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
