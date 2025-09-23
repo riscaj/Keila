@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Menyetujui</name>
+   <name>a_Terima Angsuran</name>
    <tag></tag>
-   <elementGuidId>c4f73c33-1e33-4d97-aea1-fd48a1ba203b</elementGuidId>
+   <elementGuidId>a61a1cbe-d366-4275-babc-98197ff2ad31</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.btn-block</value>
+         <value>a.btn.btn-sm.btn-success</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <value>//table[@id='__BVID__430']/tbody/tr/td[11]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,119 +22,127 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>4ddfe96d-ef42-4025-ab11-71a9de040c7a</webElementGuid>
+      <value>a</value>
+      <webElementGuid>4c0dd524-91d5-4511-b0a8-41eaf7147d12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>a3493f6d-f23e-418d-8715-2728609b30d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>a1775181-ee53-4d90-bdf6-be2b3a5a55e5</webElementGuid>
+      <value>#</value>
+      <webElementGuid>2e7bc59e-1fc6-465b-8470-44fcff6e4a93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block</value>
-      <webElementGuid>7d085bb7-9450-41b7-9d87-a61997eaab7c</webElementGuid>
+      <value>btn btn-sm btn-success</value>
+      <webElementGuid>bc462579-9f37-4111-acf3-5ba880a95c8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Menyetujui</value>
-      <webElementGuid>670d2a65-9e9e-403a-b404-0b1d9db3763c</webElementGuid>
+      <value>Terima Angsuran</value>
+      <webElementGuid>0d8fe7f8-b4d2-46e0-b604-cba54c397d36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modalAjukanReklas___BV_modal_footer_&quot;)/div[@class=&quot;w-100&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-3 mb-md-0 col-md-6&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>83fa7b92-002f-408a-bfd4-c14b6b397afa</webElementGuid>
+      <value>id(&quot;__BVID__430&quot;)/tbody[1]/tr[1]/td[11]/a[@class=&quot;btn btn-sm btn-success&quot;]</value>
+      <webElementGuid>dbc04702-d39c-4774-a8ee-39aa8f1845b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>5cd11cc9-adcc-4cb5-87e6-b2bf088aa025</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//footer[@id='modalAjukanReklas___BV_modal_footer_']/div/div/div/button</value>
-      <webElementGuid>987a7bab-4aa4-482f-9301-f83c61fddc2f</webElementGuid>
+      <value>//table[@id='__BVID__430']/tbody/tr/td[11]/a</value>
+      <webElementGuid>f8f0d3b1-3473-443a-a098-e78bb9784343</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Terima Angsuran')]</value>
+      <webElementGuid>51c7beca-c205-4586-b406-344fe8b9844b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='• Kerusuhan'])[1]/following::button[1]</value>
-      <webElementGuid>9243ca17-df91-4400-a1fe-ec9a072bc6aa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CP MALINAU'])[1]/following::a[1]</value>
+      <webElementGuid>e7642728-4fcb-4aea-9741-7e2316067b5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='• Tidak diketahui domisili'])[1]/following::button[1]</value>
-      <webElementGuid>043bc8f0-c3b7-459d-b9e7-090d2a1c6848</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MACET'])[1]/following::a[1]</value>
+      <webElementGuid>48593a7f-2a91-48cd-9646-3cc52fc62b12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menolak'])[1]/preceding::button[1]</value>
-      <webElementGuid>edecd0d7-74fb-43ab-ab24-c5739c04d3e2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SUTRISNO'])[1]/preceding::a[1]</value>
+      <webElementGuid>adc55614-ee27-4cf9-b09d-869b07912679</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Menyetujui']/parent::*</value>
-      <webElementGuid>933c04e6-4052-429c-92f0-4e098257b3a8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PAKAN TERNAK/UNGGAS'])[1]/preceding::a[1]</value>
+      <webElementGuid>44b21cc8-a06c-4c76-bb7e-18c8663e1452</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Terima Angsuran']/parent::*</value>
+      <webElementGuid>5048d1e8-1cf1-4aea-bf78-c6407189b55b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>b3f3dd02-5ce8-4050-b1e6-5d7341b7529b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/button</value>
-      <webElementGuid>29393bb5-b79f-4887-a070-86a946dfcefc</webElementGuid>
+      <value>//td[11]/a</value>
+      <webElementGuid>0ae3a720-a66f-49c7-a024-e59ab836e600</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Menyetujui' or . = 'Menyetujui')]</value>
-      <webElementGuid>157debab-30bb-4958-9785-9fa6c968b593</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Pencairan'])[1]/following::button[1]</value>
-      <webElementGuid>4f3d808a-0ecc-4382-8f57-bf29ed8cc21d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jangka Waktu'])[1]/following::button[1]</value>
-      <webElementGuid>967c3fbf-af2f-4f98-9f5e-943cfcfd996e</webElementGuid>
+      <value>//a[@href = '#' and (text() = 'Terima Angsuran' or . = 'Terima Angsuran')]</value>
+      <webElementGuid>335b2748-2a9e-4c1a-9839-0e849b758acc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

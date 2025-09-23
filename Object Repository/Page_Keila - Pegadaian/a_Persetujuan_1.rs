@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Tidak diketahui domisili</name>
+   <name>a_Persetujuan_1</name>
    <tag></tag>
-   <elementGuidId>fd6aef59-79f2-4e81-8794-489d6670e5dd</elementGuidId>
+   <elementGuidId>1ee64d38-01c8-41b7-8c81-f3b04f69188c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>a.btn.btn-sm.btn-success</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//fieldset[@id='__BVID__452']/div/div[3]/label</value>
+         <value>//table[@id='__BVID__498']/tbody/tr/td[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,111 +22,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>af6c9ea9-7bf4-4bf7-8454-74eb5464cfe6</webElementGuid>
+      <value>a</value>
+      <webElementGuid>43acdec5-7ca9-4470-a062-6c827c15bf1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
+      <webElementGuid>a8e62a16-4b3f-42ed-abdc-7bce71fa5a00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>b002fa8a-f307-4940-92e5-421197a1a8fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>custom-control-label</value>
-      <webElementGuid>9293622d-e981-400e-b7ae-b09e9e15236d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>__BVID__455</value>
-      <webElementGuid>2022bd26-777e-43d1-b3d0-998e27d0ef42</webElementGuid>
+      <value>btn btn-sm btn-success</value>
+      <webElementGuid>630ca12f-a790-4515-88e3-7873e3fb47b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tidak diketahui domisili</value>
-      <webElementGuid>5f63db4e-7338-43c6-9412-11a2ef45d956</webElementGuid>
+      <value>Persetujuan</value>
+      <webElementGuid>5912e1db-a0df-46bd-b647-1bd643abfa67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__452&quot;)/div[1]/div[@class=&quot;col-sm-6 d-inline-block mb-2 custom-control custom-checkbox&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
-      <webElementGuid>928c0d9d-ce92-49f0-923c-86930209437c</webElementGuid>
+      <value>id(&quot;__BVID__498&quot;)/tbody[1]/tr[1]/td[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-sm btn-success&quot;]</value>
+      <webElementGuid>ab133f7d-d6f9-4a35-ad01-20b1256bd7ee</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__452']/div/div[3]/label</value>
-      <webElementGuid>573d015a-3f74-4ee8-b964-1acbc2eff91d</webElementGuid>
+      <value>//table[@id='__BVID__498']/tbody/tr/td[5]/a</value>
+      <webElementGuid>3d0ba637-c65f-47fa-92ca-78493496a073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Persetujuan')])[9]</value>
+      <webElementGuid>afc6928c-5874-428c-8a29-ca62fd2f890f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Meninggal dunia'])[1]/following::label[1]</value>
-      <webElementGuid>78646493-6569-45f2-a588-47d772f4c645</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PERSETUJUAN'])[1]/following::a[1]</value>
+      <webElementGuid>7ab5905b-983b-4859-a0ee-06169d92543b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usaha Bangkrut'])[1]/following::label[2]</value>
-      <webElementGuid>d3a9e0e3-b631-4c20-b47e-996d74759345</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kantor Pusat (Konvensional)'])[2]/following::a[1]</value>
+      <webElementGuid>c9b9874c-9ee8-413c-9b04-0c7b7bf3c400</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bencana alam/Non Alam'])[1]/preceding::label[1]</value>
-      <webElementGuid>2b5bd449-8714-4571-9143-b39fc82b6862</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/preceding::a[1]</value>
+      <webElementGuid>08b7b166-8699-47ee-8e18-3d31c29169f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kerusuhan'])[1]/preceding::label[2]</value>
-      <webElementGuid>04f0b48d-efb3-4025-b9a0-b1b11d25ebbf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‹'])[1]/preceding::a[1]</value>
+      <webElementGuid>f9c7f909-a90a-4a6a-8053-f4381e51e79c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tidak diketahui domisili']/parent::*</value>
-      <webElementGuid>2a24a964-f3a5-4902-b218-8c3853dba21e</webElementGuid>
+      <value>(//a[contains(@href, '#')])[5]</value>
+      <webElementGuid>2dfc5ba1-d86b-4b57-b33e-621245bc83dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/label</value>
-      <webElementGuid>e5ead21f-1683-4e06-b24c-1c4917fbddcd</webElementGuid>
+      <value>//td[5]/a</value>
+      <webElementGuid>72afb11e-0f47-409f-ba3d-3ef0c38b2bdc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = 'Tidak diketahui domisili' or . = 'Tidak diketahui domisili')]</value>
-      <webElementGuid>c976291b-2b45-4119-b954-255c63312b4a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//fieldset[@id='__BVID__536']/div/div[3]/label</value>
-      <webElementGuid>ef64ec19-45d8-4e81-85f3-02199bd55f72</webElementGuid>
+      <value>//a[@href = '#' and (text() = 'Persetujuan' or . = 'Persetujuan')]</value>
+      <webElementGuid>9bd39aac-e1e1-4b92-8ceb-801077bb073f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

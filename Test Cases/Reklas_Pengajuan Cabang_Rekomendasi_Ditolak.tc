@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reklas_Pengajuan Cabang_Rekomendasi_Ditolak</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7dda4ba5-f926-4101-bf00-02e42eb2b781</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Hapus Buku_Terima Angsuran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9267919-450c-4d5b-96a8-96c88d5b7ea2</testCaseGuid>
+</TestCaseEntity>

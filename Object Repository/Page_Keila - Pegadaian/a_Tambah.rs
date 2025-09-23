@@ -6,12 +6,12 @@
    <elementGuidId>823dec22-1f88-4666-919f-dfba0fe6c05b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='pkKBPengajuanCabang']/div/div[2]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn.btn-primary.btn-block</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='pkHBPengajuan']/div/div[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,15 +23,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>c590bdf4-62a2-4b24-b946-d74a235e66fb</webElementGuid>
+      <webElementGuid>e94f78b2-d6df-4f45-bd32-8de41c9a39a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/program-kemitraan/kredit-bermasalah/cabang/pengajuan/tambah</value>
-      <webElementGuid>f8249e5b-01fb-4e20-8c84-8b134db43ca1</webElementGuid>
+      <value>/program-kemitraan/hapus-buku/pengajuan/tambah</value>
+      <webElementGuid>4aa0bcd9-988e-47a1-ab73-50b1d8764136</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block</value>
-      <webElementGuid>40f6e979-8c3f-438e-8fdf-6742322c86a6</webElementGuid>
+      <webElementGuid>4764609f-e603-44bc-b585-6463a5acfc5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>target</name>
       <type>Main</type>
       <value>_self</value>
-      <webElementGuid>b134e899-b3ba-4745-8bdd-61b12d848175</webElementGuid>
+      <webElementGuid>2ebd01f4-0beb-4b9c-8cdf-2a73b2987ce3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,23 +55,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Tambah</value>
-      <webElementGuid>afb209f5-ed29-4f73-8882-e1a6c1c1d317</webElementGuid>
+      <webElementGuid>aa8e415f-fefc-40b0-8534-5643df45c9bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;pkKBPengajuanCabang&quot;)/div[@class=&quot;mb-3 row&quot;]/div[@class=&quot;col-md-auto d-print-none&quot;]/a[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>5e77e717-1571-4f3f-8089-e77f3a1d4b7b</webElementGuid>
+      <value>id(&quot;pkHBPengajuan&quot;)/div[@class=&quot;mb-3 row&quot;]/div[@class=&quot;col-md-auto d-print-none&quot;]/a[@class=&quot;btn btn-primary btn-block&quot;]</value>
+      <webElementGuid>e00b80d3-986c-47c4-aa26-8c634c3f94b7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='pkKBPengajuanCabang']/div/div[2]/a</value>
-      <webElementGuid>f64a8f5b-edce-4ee7-b91f-7ee3fca8520d</webElementGuid>
+      <value>//div[@id='pkHBPengajuan']/div/div[2]/a</value>
+      <webElementGuid>697c63f7-49d2-4df1-b825-b024adcf4b14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,79 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Tambah')]</value>
-      <webElementGuid>c1dc1045-b2ae-49ac-9abe-0f22f8c5fb16</webElementGuid>
+      <webElementGuid>e6eeea0a-97f9-4f84-baff-afd0326bd094</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[3]/following::a[1]</value>
+      <webElementGuid>f46179ea-c97e-4f8b-a210-768ad558e3e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi Kas'])[2]/following::a[1]</value>
+      <webElementGuid>fedb2db2-667b-4730-9df2-f3b46bace889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter daftar'])[1]/preceding::a[1]</value>
+      <webElementGuid>02df2bd6-05e9-42c0-bf50-619a5394d4e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::a[1]</value>
+      <webElementGuid>bbee9e49-d429-40b6-a149-f98a45c6c29f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tambah']/parent::*</value>
+      <webElementGuid>afc5db94-5771-4312-a1e5-be1d6873e1d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/program-kemitraan/hapus-buku/pengajuan/tambah')]</value>
+      <webElementGuid>082a730a-30f6-414d-b1a2-553200995a17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>ba836c9b-0c80-42bb-b716-a5d93ae25759</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/program-kemitraan/hapus-buku/pengajuan/tambah' and (text() = 'Tambah' or . = 'Tambah')]</value>
+      <webElementGuid>afacb5d1-a386-4938-b907-6fc704691246</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='pkKBPengajuanCabang']/div/div[2]/a</value>
+      <webElementGuid>f64a8f5b-edce-4ee7-b91f-7ee3fca8520d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,50 +164,10 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi Kas'])[2]/following::a[1]</value>
-      <webElementGuid>3b18fd7b-6c5a-4f31-a745-a83cd620a9de</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter daftar'])[1]/preceding::a[1]</value>
-      <webElementGuid>f38134b7-de1f-4a92-8205-f350eba315ac</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::a[1]</value>
-      <webElementGuid>3357f58e-b2b5-498d-9d0e-a30aa7b8aa88</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tambah']/parent::*</value>
-      <webElementGuid>42d7d692-fdfb-4887-b42f-2961440747c9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/program-kemitraan/kredit-bermasalah/cabang/pengajuan/tambah')]</value>
       <webElementGuid>13c0e365-42ff-4af7-9f1c-3ac2cd231222</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/a</value>
-      <webElementGuid>6041c78b-74ef-4af4-bf60-c52fa49b5ace</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

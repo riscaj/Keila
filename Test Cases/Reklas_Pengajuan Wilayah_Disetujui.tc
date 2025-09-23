@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Reklas_Pengajuan Cabang</name>
+   <name>Reklas_Pengajuan Wilayah_Disetujui</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>20e8f3bc-0af8-4cbc-8bdc-4d40cb45b1c7</testCaseGuid>
+   <testCaseGuid>83eff247-d5fd-4ecc-ab9b-fa9e3ef4ab6f</testCaseGuid>
 </TestCaseEntity>

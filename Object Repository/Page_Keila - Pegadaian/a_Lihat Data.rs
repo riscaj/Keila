@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Menyetujui</name>
+   <name>a_Lihat Data</name>
    <tag></tag>
-   <elementGuidId>c4f73c33-1e33-4d97-aea1-fd48a1ba203b</elementGuidId>
+   <elementGuidId>0d7c7ac2-17f5-4bac-a3f0-0e04d0555115</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.btn-block</value>
+         <value>a.btn.btn-sm.btn-primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <value>//table[@id='__BVID__517']/tbody/tr/td[5]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,119 +22,119 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>4ddfe96d-ef42-4025-ab11-71a9de040c7a</webElementGuid>
+      <value>a</value>
+      <webElementGuid>fa9b8791-5b52-4dd9-ae85-1731de5817d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>a1775181-ee53-4d90-bdf6-be2b3a5a55e5</webElementGuid>
+      <value>/program-kemitraan/hapus-buku/release/20250922213521</value>
+      <webElementGuid>3e4afff0-7da3-4c33-8cbe-0578555a6319</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-block</value>
-      <webElementGuid>7d085bb7-9450-41b7-9d87-a61997eaab7c</webElementGuid>
+      <value>btn btn-sm btn-primary</value>
+      <webElementGuid>bddf15c9-4631-4952-b2a6-ffd403476d2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Menyetujui</value>
-      <webElementGuid>670d2a65-9e9e-403a-b404-0b1d9db3763c</webElementGuid>
+      <value>Lihat Data</value>
+      <webElementGuid>4a6b0cd7-58cf-4a73-8871-babb9c37ace0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modalAjukanReklas___BV_modal_footer_&quot;)/div[@class=&quot;w-100&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-3 mb-md-0 col-md-6&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>83fa7b92-002f-408a-bfd4-c14b6b397afa</webElementGuid>
+      <value>id(&quot;__BVID__517&quot;)/tbody[1]/tr[1]/td[@class=&quot;text-center&quot;]/a[@class=&quot;btn btn-sm btn-primary&quot;]</value>
+      <webElementGuid>50fb888c-64cd-450d-8ed7-30db60ac7606</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[5]</value>
-      <webElementGuid>5cd11cc9-adcc-4cb5-87e6-b2bf088aa025</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//footer[@id='modalAjukanReklas___BV_modal_footer_']/div/div/div/button</value>
-      <webElementGuid>987a7bab-4aa4-482f-9301-f83c61fddc2f</webElementGuid>
+      <value>//table[@id='__BVID__517']/tbody/tr/td[5]/a</value>
+      <webElementGuid>3cc92c70-82ef-435f-bc03-b57bad277d10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Lihat Data')]</value>
+      <webElementGuid>2423e24b-5597-4f54-aca0-582b49173f7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='• Kerusuhan'])[1]/following::button[1]</value>
-      <webElementGuid>9243ca17-df91-4400-a1fe-ec9a072bc6aa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RELEASE'])[1]/following::a[1]</value>
+      <webElementGuid>39c31ede-dbe8-4e3e-b783-f1f914707ac8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='• Tidak diketahui domisili'])[1]/following::button[1]</value>
-      <webElementGuid>043bc8f0-c3b7-459d-b9e7-090d2a1c6848</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kantor Pusat (Konvensional)'])[2]/following::a[1]</value>
+      <webElementGuid>2bf69880-040d-49e7-a9ac-d3830857ee07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menolak'])[1]/preceding::button[1]</value>
-      <webElementGuid>edecd0d7-74fb-43ab-ab24-c5739c04d3e2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[1]/preceding::a[1]</value>
+      <webElementGuid>86a64a42-bfa7-49dd-9030-efd2833ab7fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Menyetujui']/parent::*</value>
-      <webElementGuid>933c04e6-4052-429c-92f0-4e098257b3a8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='‹'])[1]/preceding::a[1]</value>
+      <webElementGuid>118ab60c-19b1-494d-ac65-c5102874331a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Lihat Data']/parent::*</value>
+      <webElementGuid>45ededaf-9b72-427e-825f-b3d60753a8b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/program-kemitraan/hapus-buku/release/20250922213521')]</value>
+      <webElementGuid>9dd1b6e4-2e6e-4691-9f1a-466960fd63c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/button</value>
-      <webElementGuid>29393bb5-b79f-4887-a070-86a946dfcefc</webElementGuid>
+      <value>//td[5]/a</value>
+      <webElementGuid>bbc26aa0-a0f5-4e9b-bba2-f589752fdcf4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Menyetujui' or . = 'Menyetujui')]</value>
-      <webElementGuid>157debab-30bb-4958-9785-9fa6c968b593</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tanggal Pencairan'])[1]/following::button[1]</value>
-      <webElementGuid>4f3d808a-0ecc-4382-8f57-bf29ed8cc21d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jangka Waktu'])[1]/following::button[1]</value>
-      <webElementGuid>967c3fbf-af2f-4f98-9f5e-943cfcfd996e</webElementGuid>
+      <value>//a[@href = '/program-kemitraan/hapus-buku/release/20250922213521' and (text() = 'Lihat Data' or . = 'Lihat Data')]</value>
+      <webElementGuid>0ae483b6-315a-4ae0-866b-5cd384d19b28</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

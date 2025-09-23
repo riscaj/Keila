@@ -24,17 +24,21 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.baseUrl)
 
+
 //Login
 TestObject inputUsername = new TestObject('inputUsername')
 inputUsername.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Username atau NIK']")
+
 WebUI.setText(inputUsername, GlobalVariable.username)
 
 TestObject inputPassword = new TestObject('inputPassword')
 inputPassword.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Password']")
+
 WebUI.setEncryptedText(inputPassword, GlobalVariable.password)
 
 TestObject btnLogin = new TestObject('btnLogin')
 btnLogin.addProperty("xpath", ConditionType.EQUALS, "//button[@type='submit' and contains(@class,'btn-primary')]")
+
 WebUI.waitForElementVisible(btnLogin, 10)
 WebUI.waitForElementClickable(btnLogin, 10)
 WebUI.click(btnLogin)
@@ -47,15 +51,8 @@ kreditBermasalahKhusus.addProperty("xpath", ConditionType.EQUALS, "//div[contain
 WebUI.waitForElementClickable(kreditBermasalahKhusus, 10)
 WebUI.click(kreditBermasalahKhusus)
 
+
 //Pengajuan
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Program Kemitraan'))
-
-TestObject kreditBermasalahKhusus = new TestObject('kreditBermasalahKhusus')
-kreditBermasalahKhusus.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'nav-dropdown-toggle') and normalize-space()='Kredit Bermasalah Khusus']")
-
-WebUI.waitForElementClickable(kreditBermasalahKhusus, 10)
-WebUI.click(kreditBermasalahKhusus)
-
 TestObject menuPengajuan = new TestObject('menuPengajuan')
 menuPengajuan.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@href,'/kredit-bermasalah-khusus/pengajuan')]")
 
@@ -68,49 +65,50 @@ tambahBtn.addProperty('xpath', ConditionType.EQUALS, '//a[normalize-space(text()
 WebUI.waitForElementClickable(tambahBtn, 10)
 WebUI.click(tambahBtn)
 
-//Input Nomor Kredit
 TestObject nomorKreditInput = new TestObject()
 nomorKreditInput.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Kredit\']')
 
-WebUI.setText(nomorKreditInput, '1110061160011')
+WebUI.setText(nomorKreditInput, '1310835210012')
 
-//Click Button Cari Data
 TestObject cariDataBtn = new TestObject()
 cariDataBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Cari Data\']')
 
 WebUI.click(cariDataBtn)
 
-//CLick Button Ajukan Reklas
 TestObject ajukanReklasBtn = new TestObject()
 ajukanReklasBtn.addProperty('xpath', ConditionType.EQUALS, '//a[normalize-space()=\'Ajukan Reklas\']')
 
 WebUI.click(ajukanReklasBtn)
 
-//Tick Kriteria Bencana
 TestObject kriteriaBencana = new TestObject()
 kriteriaBencana.addProperty('xpath', ConditionType.EQUALS, '//label[contains(., \'Bencana alam/Non Alam\')]')
 
 WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElement(kriteriaBencana, 10)))
 
-//Input Alasan Pengajuan
 TestObject alasanPengajuan = new TestObject()
 alasanPengajuan.addProperty('xpath', ConditionType.EQUALS, '//textarea[@placeholder=\'Alasan Pengajuan\']')
 
 WebUI.setText(alasanPengajuan, 'Banjir')
 
-//Upload File
 TestObject uploadFileInput = new TestObject()
 uploadFileInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'file\']')
 
 WebUI.uploadFile(uploadFileInput, '/Users/riscajulinarti/Documents/Pdf test file.pdf')
 
-//Click Save Button
 TestObject simpanBtn = new TestObject()
 simpanBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Simpan\']')
 
 WebUI.click(simpanBtn)
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tutup'))
+TestObject btnTutupPengajuan = new TestObject('btnTutupPengajuan')
+btnTutupPengajuan.addProperty('xpath', ConditionType.EQUALS, '//button[@type=\'button\' and contains(@class,\'btn-danger\')]')
+
+WebUI.waitForElementClickable(btnTutupPengajuan, 10)
+WebUI.click(btnTutupPengajuan)
+
+WebUI.delay(20)
+
+
 
 //Tolak Rekomendasi
 TestObject menuRekomendasi = new TestObject('menuRekomendasi')
@@ -134,7 +132,7 @@ WebUI.waitForAlert(10)
 
 WebUI.acceptAlert()
 
-WebUI.delay(15)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
 

@@ -6,12 +6,12 @@
    <elementGuidId>92deda18-6cca-4aa1-8558-c50b4d5bb7d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[8]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-danger</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6ac0a5c8-58d9-4fb0-bb48-e7e73092b842</webElementGuid>
+      <webElementGuid>c76497c6-6513-4a07-aa53-c55f29aeb106</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>84b6e547-04e5-412b-9018-d1a927f87f07</webElementGuid>
+      <webElementGuid>9ee54a65-6fcc-4b32-8ca6-0a4fc4c182be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-danger</value>
-      <webElementGuid>3bc722fb-9948-41eb-8e7c-cf31c3304114</webElementGuid>
+      <webElementGuid>4e3a08d0-075a-49c3-a9c9-a5fdbaca7114</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Tutup</value>
-      <webElementGuid>dd20005a-7f15-4297-bfb9-2a4c1a1d8d86</webElementGuid>
+      <webElementGuid>50138ad1-1ff1-4929-9037-785cb718269c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,15 +55,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;modal___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn btn-danger&quot;]</value>
-      <webElementGuid>a2ce91ce-14b8-4205-ba14-e35fd78e92aa</webElementGuid>
+      <webElementGuid>077b0a79-2515-4a30-bd57-eccf5376c241</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>3576b222-93b2-4111-8d4a-eedb0869d51e</webElementGuid>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>9ba44bcc-6107-4723-848b-43c457db1606</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,55 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//footer[@id='modal___BV_modal_footer_']/div/button</value>
-      <webElementGuid>82e1cf19-7627-4afc-aff8-54b369e1f6ed</webElementGuid>
+      <webElementGuid>f8342165-5165-483c-91e9-d1061fc74124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berkas F-PK9'])[1]/following::button[1]</value>
+      <webElementGuid>fc1d21f5-4581-420d-aa19-d67795a00d15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Angsuran berhasil diterima'])[1]/following::button[2]</value>
+      <webElementGuid>ca1f4b4e-571f-45e6-b444-0d0f5a994f47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tutup']/parent::*</value>
+      <webElementGuid>e48e41f0-4706-49c7-9d90-893590917afa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/div/button</value>
+      <webElementGuid>bb68be83-c0fb-49c7-88ec-e053edb8975d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Tutup' or . = 'Tutup')]</value>
+      <webElementGuid>a5bae56a-8fca-4dee-9edb-96b55085d1f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>3576b222-93b2-4111-8d4a-eedb0869d51e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,26 +140,10 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tutup']/parent::*</value>
-      <webElementGuid>b04e5677-b73d-4431-83dc-1ededf2efb39</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div/footer/div/button</value>
       <webElementGuid>274aeb78-8023-45f9-bd19-3b19ac86f282</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Tutup' or . = 'Tutup')]</value>
-      <webElementGuid>9b6f50ae-b3b2-4482-b214-acde059558f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

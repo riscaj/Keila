@@ -6,12 +6,12 @@
    <elementGuidId>6358ffb4-61b6-45c7-bc38-d8836b78e646</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='laporanMBBermasalah']/div[2]/form/div/div[4]/div/label</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>label.custom-control-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='laporanAkuntansiBaganAkunPK']/div[2]/form/div/div[4]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>f68fbcc8-8f8c-4203-965d-c26244ad9708</webElementGuid>
+      <webElementGuid>b4425c04-3a7e-4eef-9692-ebeee030aa86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>for</name>
       <type>Main</type>
       <value>konsolidasi</value>
-      <webElementGuid>100ac0fe-0d3c-4ab6-ac2d-0a8ed46fa779</webElementGuid>
+      <webElementGuid>6deb2529-5534-46f7-95a7-589c4b83f2ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>custom-control-label</value>
-      <webElementGuid>36cb7dcc-9fd7-47bf-bd35-c89a84ed4302</webElementGuid>
+      <webElementGuid>4e39039a-78b9-4ab8-bb55-c9ba83582e70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,23 +47,23 @@
       <name>text</name>
       <type>Main</type>
       <value>Konsolidasi</value>
-      <webElementGuid>ddef4bd7-7a59-4e45-8ab9-42672bbf8c9d</webElementGuid>
+      <webElementGuid>8a619764-409e-4a1e-a308-83f7ac782da3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;laporanMBBermasalah&quot;)/div[@class=&quot;mb-3&quot;]/form[1]/div[@class=&quot;form-row&quot;]/div[@class=&quot;mb-2 col-md-3&quot;]/div[@class=&quot;custom-control custom-checkbox&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
-      <webElementGuid>2e91b945-bd56-4141-b195-5818cc46e724</webElementGuid>
+      <value>id(&quot;laporanAkuntansiBaganAkunPK&quot;)/div[@class=&quot;mb-3&quot;]/form[1]/div[@class=&quot;form-row&quot;]/div[@class=&quot;mb-2 col-md-3 col-xl-2&quot;]/div[@class=&quot;custom-control custom-checkbox&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
+      <webElementGuid>759024cb-bb86-4bbf-8f50-09764feb89b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='laporanMBBermasalah']/div[2]/form/div/div[4]/div/label</value>
-      <webElementGuid>305319af-64f3-4505-af0d-e4cbeb8cf0c7</webElementGuid>
+      <value>//div[@id='laporanAkuntansiBaganAkunPK']/div[2]/form/div/div[4]/div/label</value>
+      <webElementGuid>516b9d04-b2f4-4b0b-a131-a9f022190504</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[6]/following::label[1]</value>
-      <webElementGuid>d085ad0b-7fef-4885-b2c4-e682215cb42c</webElementGuid>
+      <webElementGuid>8c3b4bea-3d98-4bf0-a74f-1ff633e6b2a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,55 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='&lt;'])[6]/following::label[1]</value>
-      <webElementGuid>023d1c7b-1be5-418e-ae3c-2ec0fec27d1f</webElementGuid>
+      <webElementGuid>d2f4f8e0-5d06-495c-9105-752e9ceebb94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::label[1]</value>
+      <webElementGuid>ea2970a9-4f04-4944-882c-e9551286db98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode'])[1]/preceding::label[1]</value>
+      <webElementGuid>66ce03e7-8c48-4e9b-abd1-e1343782d243</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Konsolidasi']/parent::*</value>
+      <webElementGuid>da3c51ef-a059-4315-892b-86892ee59d49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/label</value>
+      <webElementGuid>78c58ef4-a900-463c-a20d-885c379b22bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Konsolidasi' or . = 'Konsolidasi')]</value>
+      <webElementGuid>b8e72732-36ca-4fa6-b32a-cdaf78666271</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='laporanMBBermasalah']/div[2]/form/div/div[4]/div/label</value>
+      <webElementGuid>305319af-64f3-4505-af0d-e4cbeb8cf0c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,29 +144,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor'])[1]/preceding::label[1]</value>
       <webElementGuid>112e5c7f-87c0-4a99-9cc3-b3755c630364</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Konsolidasi']/parent::*</value>
-      <webElementGuid>109c6a30-b86a-4721-ba03-e896faad5af2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[4]/div/label</value>
-      <webElementGuid>1ca68423-5b59-44e5-becb-429c4a7b4364</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//label[(text() = 'Konsolidasi' or . = 'Konsolidasi')]</value>
-      <webElementGuid>177de474-e37d-4a61-ad5c-52db60f28c6c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

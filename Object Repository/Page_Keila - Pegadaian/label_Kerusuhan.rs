@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Tidak diketahui domisili</name>
+   <name>label_Kerusuhan</name>
    <tag></tag>
-   <elementGuidId>fd6aef59-79f2-4e81-8794-489d6670e5dd</elementGuidId>
+   <elementGuidId>bb380549-5c78-4600-a166-985ece236138</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//fieldset[@id='__BVID__452']/div/div[3]/label</value>
+         <value>//fieldset[@id='__BVID__452']/div/div[5]/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>af6c9ea9-7bf4-4bf7-8454-74eb5464cfe6</webElementGuid>
+      <webElementGuid>b6d15bf3-ea5f-4d7e-b50e-d1ad7a11d5bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,23 +31,23 @@
       <name>class</name>
       <type>Main</type>
       <value>custom-control-label</value>
-      <webElementGuid>9293622d-e981-400e-b7ae-b09e9e15236d</webElementGuid>
+      <webElementGuid>89a3fb88-983a-4d2c-98ab-24af2825d6ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>__BVID__455</value>
-      <webElementGuid>2022bd26-777e-43d1-b3d0-998e27d0ef42</webElementGuid>
+      <value>__BVID__457</value>
+      <webElementGuid>498fa635-f404-453c-971d-20b80185e707</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tidak diketahui domisili</value>
-      <webElementGuid>5f63db4e-7338-43c6-9412-11a2ef45d956</webElementGuid>
+      <value>Kerusuhan</value>
+      <webElementGuid>6a5e2fe9-a841-40e7-a9bc-66c228e42fb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,78 +55,62 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__BVID__452&quot;)/div[1]/div[@class=&quot;col-sm-6 d-inline-block mb-2 custom-control custom-checkbox&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
-      <webElementGuid>928c0d9d-ce92-49f0-923c-86930209437c</webElementGuid>
+      <webElementGuid>245111be-1d3f-4ae4-bfb5-df7fbaa85f60</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__452']/div/div[3]/label</value>
-      <webElementGuid>573d015a-3f74-4ee8-b964-1acbc2eff91d</webElementGuid>
+      <value>//fieldset[@id='__BVID__452']/div/div[5]/label</value>
+      <webElementGuid>8bfb84e1-0b99-4233-91ef-9e4b9f5d0f0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Meninggal dunia'])[1]/following::label[1]</value>
-      <webElementGuid>78646493-6569-45f2-a588-47d772f4c645</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bencana alam/Non Alam'])[1]/following::label[1]</value>
+      <webElementGuid>dc2454a0-a65b-408f-84c1-e50dab52cbaa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Usaha Bangkrut'])[1]/following::label[2]</value>
-      <webElementGuid>d3a9e0e3-b631-4c20-b47e-996d74759345</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak diketahui domisili'])[1]/following::label[2]</value>
+      <webElementGuid>56149269-ccf1-439a-9c15-3bbad3c44a6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bencana alam/Non Alam'])[1]/preceding::label[1]</value>
-      <webElementGuid>2b5bd449-8714-4571-9143-b39fc82b6862</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perubahan cabang konven menjadi syariah'])[1]/preceding::label[1]</value>
+      <webElementGuid>5d4cc954-f986-4b9f-add2-9d78579ca8c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kerusuhan'])[1]/preceding::label[2]</value>
-      <webElementGuid>04f0b48d-efb3-4025-b9a0-b1b11d25ebbf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tidak diketahui domisili']/parent::*</value>
-      <webElementGuid>2a24a964-f3a5-4902-b218-8c3853dba21e</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Kerusuhan']/parent::*</value>
+      <webElementGuid>0d106707-3aeb-4e76-a688-31341741dd53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/label</value>
-      <webElementGuid>e5ead21f-1683-4e06-b24c-1c4917fbddcd</webElementGuid>
+      <value>//div[5]/label</value>
+      <webElementGuid>ac973213-32d8-4249-89f0-59080d823b12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = 'Tidak diketahui domisili' or . = 'Tidak diketahui domisili')]</value>
-      <webElementGuid>c976291b-2b45-4119-b954-255c63312b4a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//fieldset[@id='__BVID__536']/div/div[3]/label</value>
-      <webElementGuid>ef64ec19-45d8-4e81-85f3-02199bd55f72</webElementGuid>
+      <value>//label[(text() = 'Kerusuhan' or . = 'Kerusuhan')]</value>
+      <webElementGuid>2d2896a1-91c0-4f22-881d-61c78f9c1e9e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

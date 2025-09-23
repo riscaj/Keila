@@ -28,35 +28,40 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 //Login
 TestObject inputUsername = new TestObject('inputUsername')
 inputUsername.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Username atau NIK']")
+
 WebUI.setText(inputUsername, GlobalVariable.username)
 
 TestObject inputPassword = new TestObject('inputPassword')
 inputPassword.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Password']")
+
 WebUI.setEncryptedText(inputPassword, GlobalVariable.password)
 
 TestObject btnLogin = new TestObject('btnLogin')
 btnLogin.addProperty("xpath", ConditionType.EQUALS, "//button[@type='submit' and contains(@class,'btn-primary')]")
+
 WebUI.waitForElementVisible(btnLogin, 10)
 WebUI.waitForElementClickable(btnLogin, 10)
 WebUI.click(btnLogin)
 
 TestObject menuTransaksiPKBL = new TestObject()
 menuTransaksiPKBL.addProperty("xpath", ConditionType.EQUALS, "//div[contains(text(),'Transaksi PKBL')]")
+
 WebUI.click(menuTransaksiPKBL)
 
 TestObject subMenuJurnalBalik = new TestObject()
 subMenuJurnalBalik.addProperty("xpath", ConditionType.EQUALS, "//a[contains(text(),'Jurnal Balik')]")
+
 WebUI.click(subMenuJurnalBalik)
 
 TestObject kodejurnal = new TestObject()
 kodejurnal.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Bukti\']')
-WebUI.setText(kodejurnal, '20250916182532.PL')
+
+WebUI.setText(kodejurnal, '20250923001513.PL')
 
 TestObject cariDataBtn = new TestObject()
 cariDataBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Cari Jurnal\']')
 
 WebUI.click(cariDataBtn)
-
 
 TestObject koreksiBtn = new TestObject()
 koreksiBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Koreksi\']')
@@ -65,16 +70,22 @@ WebUI.click(koreksiBtn)
 
 TestObject fieldTanggal = new TestObject()
 fieldTanggal.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Tanggal']")
+
 WebUI.click(fieldTanggal)
 
-// Pilih tanggal 17 (ubah sesuai kebutuhan)
 TestObject pilihTanggal = new TestObject()
-pilihTanggal.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'vdp-datepicker__calendar')]//span[text()='17']")
+pilihTanggal.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'vdp-datepicker__calendar')]//span[text()='20']")
 WebUI.click(pilihTanggal)
 
 TestObject simpanBtn = new TestObject()
 simpanBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Simpan\']')
 
 WebUI.click(simpanBtn)
+
+WebUI.waitForAlert(10)
+
+WebUI.acceptAlert()
+
+WebUI.delay(20)
 
 WebUI.closeBrowser()

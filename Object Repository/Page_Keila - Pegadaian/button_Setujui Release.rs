@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Simpan</name>
+   <name>button_Setujui Release</name>
    <tag></tag>
-   <elementGuidId>8861ce1e-d786-4298-a3c5-2b6616568bf9</elementGuidId>
+   <elementGuidId>11db5795-45f2-45e3-95af-e96974de7c3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#modalFormAjukanReklas___BV_modal_footer_ > div > button.btn.btn-primary</value>
+         <value>button.btn.mr-2.btn-success</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[8]</value>
+         <value>(//button[@type='button'])[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6a701959-4746-4f59-b629-ddb127396767</webElementGuid>
+      <webElementGuid>d6d7706a-66f5-4126-a349-70217e57b2ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,71 +31,79 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>28d53498-093a-4028-89f8-2b1bde6e9b45</webElementGuid>
+      <webElementGuid>cc4b4f5e-f9fd-408c-ac3d-6805c1d5fb33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary</value>
-      <webElementGuid>8954939d-7dc9-4b1a-8880-83d5eb5d017d</webElementGuid>
+      <value>btn mr-2 btn-success</value>
+      <webElementGuid>ede5e092-0b7d-41b2-8bc3-5b2955eb4d01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Simpan</value>
-      <webElementGuid>5dd6d213-4b19-42f4-80ca-4303a4d18771</webElementGuid>
+      <value>Setujui Release</value>
+      <webElementGuid>3660019f-09ab-41d2-a42f-bc5a35d1f3af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modalFormAjukanReklas___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>edc16fc0-ea47-4d3c-a0b7-2422ff8aa211</webElementGuid>
+      <value>id(&quot;modalRelease___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn mr-2 btn-success&quot;]</value>
+      <webElementGuid>fc0cf5ea-777d-417a-8a20-b74d4fedb902</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>77130d9b-f9bb-4e19-8a1a-c059ef582d2a</webElementGuid>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>1a3354fd-c658-4733-916e-285f49000d87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//footer[@id='modalFormAjukanReklas___BV_modal_footer_']/div/button</value>
-      <webElementGuid>9a564029-c227-4e6a-8f49-5407508b36f1</webElementGuid>
+      <value>//footer[@id='modalRelease___BV_modal_footer_']/div/button</value>
+      <webElementGuid>5a6643e9-6755-4c01-9ae3-eabe3e25a116</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pdf test file.pdf'])[1]/following::button[1]</value>
-      <webElementGuid>820600de-14bf-402f-ab37-a87643a5f181</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beban Penyisihan Piutang Mitra Bermasalah - Sektor Perdagangan'])[1]/following::button[1]</value>
+      <webElementGuid>29544dc6-6eea-4231-bc47-37664d16c476</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='* PDF, Max 2MB'])[1]/following::button[1]</value>
-      <webElementGuid>ff7facd4-95c8-499d-aada-8654bb72b7aa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alokasi Penyisihan Piutang Pinjaman Mitra Binaan - Sek. Perdagangan'])[1]/following::button[1]</value>
+      <webElementGuid>164f07e3-d033-45ac-bc4a-ba4755a85643</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
-      <webElementGuid>1fc721b2-0843-48d8-b317-64a98e714033</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/preceding::button[1]</value>
+      <webElementGuid>31f104f1-5dbe-48f4-a37b-871278e2b854</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Setujui Release']/parent::*</value>
+      <webElementGuid>65fe4feb-827d-447e-9edc-eb2bbf3eb32b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,30 +111,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//footer/div/button</value>
-      <webElementGuid>05e3f212-467e-4cab-ac18-8b59bac41ba7</webElementGuid>
+      <webElementGuid>e07cc4d1-41b5-448b-a786-7642d32f3d6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Simpan' or . = 'Simpan')]</value>
-      <webElementGuid>32ade14e-9df6-485b-8c50-32742d18159a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>88ee4e45-8cab-4ace-bfa8-23136ef90ae7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::button[1]</value>
-      <webElementGuid>77506ca1-6029-4cec-9e10-334496c87e5a</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Setujui Release' or . = 'Setujui Release')]</value>
+      <webElementGuid>9c099ed2-85b5-478b-bece-816ca9b88198</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

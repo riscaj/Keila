@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Reklas Khusus_Filter_Pengajuan</name>
+   <name>Reklas_Pengajuan Cabang_Disetujui</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>9a4d9019-e88a-4fa2-8d76-eef01c8edb49</testCaseGuid>
+   <testCaseGuid>20e8f3bc-0af8-4cbc-8bdc-4d40cb45b1c7</testCaseGuid>
 </TestCaseEntity>

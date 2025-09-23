@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Laporan Akuntansi</name>
+   <name>div_Hapus Buku</name>
    <tag></tag>
-   <elementGuidId>682e9995-bd19-4b9a-86cc-72706e817612</elementGuidId>
+   <elementGuidId>6d10f0e5-d2e4-498b-9ee0-310ae1afd69a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Demografi Mitra Binaan'])[1]/following::div[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Persetujuan'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>80c3266b-fd57-4260-9ef6-e7793b5bbacb</webElementGuid>
+      <webElementGuid>bbe4061a-8d74-444d-a4b1-385c76436eb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,15 +31,15 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link nav-dropdown-toggle</value>
-      <webElementGuid>b3dbbce1-e421-4390-96d3-80728cf71711</webElementGuid>
+      <webElementGuid>9795b8fc-9d35-42f8-b1f8-cee78e749061</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Laporan Akuntansi</value>
-      <webElementGuid>2dfebae5-f0be-4905-847b-bb852dd5ab58</webElementGuid>
+      <value> Hapus Buku</value>
+      <webElementGuid>05a1a420-107a-49a0-b94d-fea56f3dbbc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,78 +47,54 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item nav-dropdown&quot;]/div[@class=&quot;nav-link nav-dropdown-toggle&quot;]</value>
-      <webElementGuid>20168d9f-5279-4e6f-9275-0566e98d811b</webElementGuid>
+      <webElementGuid>79e3a6a6-2ec2-4113-8274-713356126e16</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Demografi Mitra Binaan'])[1]/following::div[1]</value>
-      <webElementGuid>d57e7539-d52f-4f13-a77e-a20b02d86c57</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Persetujuan'])[1]/following::div[1]</value>
+      <webElementGuid>7fbc60f1-4c5e-4963-90fa-08cac0db1b04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mitra Binaan Baru Tahun Bersangkutan'])[1]/following::div[1]</value>
-      <webElementGuid>98713dae-c373-4028-899b-50ac1de710b3</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[1]/following::div[1]</value>
+      <webElementGuid>f181af9a-0efa-4cea-b8ff-e2529c9b529d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bagan Akun CSR'])[1]/preceding::div[1]</value>
-      <webElementGuid>653fe679-6ba9-49ee-a741-6671283fa75a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[2]/preceding::div[1]</value>
+      <webElementGuid>6a8952be-1369-45f0-9d7e-f7df132c530a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bagan Akun'])[1]/preceding::div[1]</value>
-      <webElementGuid>ead3ee4e-f102-4425-9fa3-ab99d8229934</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Laporan Akuntansi']/parent::*</value>
-      <webElementGuid>790b6960-6b61-47e9-b027-2fbdcdc847b1</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[2]/preceding::div[1]</value>
+      <webElementGuid>7f9ff814-d11e-4701-9b38-2abb91d86feb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[7]/ul/li[4]/div</value>
-      <webElementGuid>5a2e0879-1db8-41d9-84c4-14c6d99f99fd</webElementGuid>
+      <value>//li[11]/div</value>
+      <webElementGuid>df4b5c73-1513-48de-b1b9-2ed2b553a7db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = ' Laporan Akuntansi' or . = ' Laporan Akuntansi')]</value>
-      <webElementGuid>09c8f2de-ce83-4367-aee5-29a845152c44</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan Aktivitas'])[1]/preceding::div[1]</value>
-      <webElementGuid>3f65ea89-b095-4942-9e4b-2c3d280da9c7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//li[8]/ul/li[4]/div</value>
-      <webElementGuid>3e9ab7ce-318f-424c-8a5d-39086455c9e6</webElementGuid>
+      <value>//div[(text() = ' Hapus Buku' or . = ' Hapus Buku')]</value>
+      <webElementGuid>b3ae4415-b715-48cb-8eb1-72f7392c4a46</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

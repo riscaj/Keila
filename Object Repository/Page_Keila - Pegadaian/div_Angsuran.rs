@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Pelaporan</name>
+   <name>div_Angsuran</name>
    <tag></tag>
-   <elementGuidId>da01d783-2dc1-4545-8612-bab562b04e15</elementGuidId>
+   <elementGuidId>73e34452-5aca-4053-81c4-e2bc4abc9569</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Target BL'])[1]/following::div[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Mitra Binaan - Penyaluran PK'])[1]/following::div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>bf21e739-bc8f-43c5-b5d5-2cb7937f47b3</webElementGuid>
+      <webElementGuid>126889cd-f4f8-42b1-9b2a-c693d187f4c0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,86 +31,78 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link nav-dropdown-toggle</value>
-      <webElementGuid>61a80794-1e20-40a3-bdda-91f3dffa0199</webElementGuid>
+      <webElementGuid>feed81d0-fa4d-48aa-b45c-635fe6cdd77a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Pelaporan</value>
-      <webElementGuid>7e47ac4d-6909-426c-88ea-61429c574ff9</webElementGuid>
+      <value> Angsuran</value>
+      <webElementGuid>fdd462a0-260b-4a44-9848-5eb911eb6369</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown&quot;]/div[@class=&quot;nav-link nav-dropdown-toggle&quot;]</value>
-      <webElementGuid>77a28575-53c8-4616-9f2c-f06b07a0860c</webElementGuid>
+      <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item nav-dropdown&quot;]/div[@class=&quot;nav-link nav-dropdown-toggle&quot;]</value>
+      <webElementGuid>81bbd615-35bb-482d-b3a3-4e332bf0710c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Target BL'])[1]/following::div[1]</value>
-      <webElementGuid>60d44961-5c6c-41d8-a9c5-7cbf16accee4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Mitra Binaan - Penyaluran PK'])[1]/following::div[1]</value>
+      <webElementGuid>ee98e990-4cef-46fd-a76f-da94a89fc493</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Target PK'])[1]/following::div[1]</value>
-      <webElementGuid>454b8b6c-7e95-4f7c-9fcd-145f84e6966d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Penyaluran'])[1]/following::div[1]</value>
+      <webElementGuid>91229148-719c-491a-96e1-8da1ad10e038</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Laporan PK'])[1]/preceding::div[1]</value>
-      <webElementGuid>531e238e-3b0e-468d-b045-4f69a4b702bb</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kredit PK'])[1]/preceding::div[1]</value>
+      <webElementGuid>78dea4c4-35ed-4fc1-83a3-83cb22817708</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar Nama Mitra Binaan'])[1]/preceding::div[2]</value>
-      <webElementGuid>d2bc1569-6ae8-4ec8-b46f-c22da5debd1d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pelunasan PK'])[1]/preceding::div[1]</value>
+      <webElementGuid>ddaf613a-0dc3-471b-9195-a94109b9d7c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Pelaporan']/parent::*</value>
-      <webElementGuid>b41eb34f-be68-4252-a14e-19acdcbcfffe</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Angsuran']/parent::*</value>
+      <webElementGuid>28e5c680-d1ba-4bfe-9852-61b090e61d0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[7]/div</value>
-      <webElementGuid>a089d587-c85a-47cb-adf4-4223a4b0000c</webElementGuid>
+      <value>//li[2]/ul/li[2]/div</value>
+      <webElementGuid>1c339968-4d90-4a46-bb55-e4b43bc965e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = ' Pelaporan' or . = ' Pelaporan')]</value>
-      <webElementGuid>eda62cd4-4e90-4a34-ac22-07821d101e1c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//li[8]/div</value>
-      <webElementGuid>a3bd8673-9cd5-4180-bbae-5182fcea8057</webElementGuid>
+      <value>//div[(text() = ' Angsuran' or . = ' Angsuran')]</value>
+      <webElementGuid>53d85df8-1fd6-485a-8912-c6b1a68c3e6e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

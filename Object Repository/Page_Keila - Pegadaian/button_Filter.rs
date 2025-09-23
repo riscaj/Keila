@@ -6,12 +6,12 @@
    <elementGuidId>c1041b96-0f2a-4596-a575-57a33d91f909</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@type='submit']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.btn-primary.btn-block</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>922ebc96-d1f7-46d1-90d0-c9431af66587</webElementGuid>
+      <webElementGuid>f8654b97-fbca-44cd-bf36-ca5166d941c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>f15f2275-22dd-4c3a-a13b-567633d618bd</webElementGuid>
+      <webElementGuid>494cc132-c923-44d4-afd9-e25c1e944d34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-block</value>
-      <webElementGuid>fcc3d7fb-2e50-4313-913f-23f0a1d9cad8</webElementGuid>
+      <webElementGuid>11c25ca9-4b60-4144-ae97-79fb06c0cb82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,15 +47,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Filter</value>
-      <webElementGuid>a61fe963-fb6d-4613-92fd-781c2aa6c323</webElementGuid>
+      <webElementGuid>5946bde4-e3da-4bf9-ba40-05e052c8053f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;laporanMBBermasalah&quot;)/div[@class=&quot;mb-3&quot;]/form[1]/div[@class=&quot;form-row&quot;]/div[@class=&quot;mb-2 col-md-3&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
-      <webElementGuid>55dcc318-c85f-4404-af3c-293eb90b39e2</webElementGuid>
+      <value>id(&quot;laporanAkuntansiBaganAkunPK&quot;)/div[@class=&quot;mb-3&quot;]/form[1]/div[@class=&quot;form-row&quot;]/div[@class=&quot;col-md-2 col-xl-1&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
+      <webElementGuid>ee978d25-5bef-4d8b-9755-82ff72f4c12b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,71 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>77782c17-edd8-4747-b028-a9a1a6419f38</webElementGuid>
+      <webElementGuid>d9073b27-6524-414a-a212-c0295b022291</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='laporanAkuntansiBaganAkunPK']/div[2]/form/div/div[5]/button</value>
+      <webElementGuid>f7c3658e-dac2-44e2-b435-7bfd72b1c3bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konsolidasi'])[1]/following::button[1]</value>
+      <webElementGuid>3ce11b1c-5381-4ce7-acfc-085f88e3ef53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[6]/following::button[1]</value>
+      <webElementGuid>2e77fab3-5052-489b-b018-4dfbff8c3876</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode'])[1]/preceding::button[1]</value>
+      <webElementGuid>f787bdb6-21e6-4ea2-9dc2-a5bc53a42832</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Akun'])[1]/preceding::button[1]</value>
+      <webElementGuid>49021917-b114-4c11-84d6-434d825404c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Filter']/parent::*</value>
+      <webElementGuid>354a5559-62a6-4eda-8739-f47c47a6afb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button</value>
+      <webElementGuid>811fa68a-b338-4f73-ad99-3ef843a99606</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Filter' or . = 'Filter')]</value>
+      <webElementGuid>bdf99374-b138-4730-993b-d9c1d86ad6cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,22 +136,6 @@
       <type>Main</type>
       <value>//div[@id='laporanMBBermasalah']/div[2]/form/div/div[6]/button</value>
       <webElementGuid>14c876f9-8d88-4c0e-8315-abe14defb11a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Konsolidasi'])[1]/following::button[1]</value>
-      <webElementGuid>b98d145e-aa16-42eb-acfd-a280f7cdd4c2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='>'])[6]/following::button[1]</value>
-      <webElementGuid>16b2be29-2b7d-460e-ad72-f74adccb46f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,14 +160,6 @@
       <type>Main</type>
       <value>//div[6]/button</value>
       <webElementGuid>02424443-3f64-4630-bc81-883e0c9bd05c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Filter' or . = 'Filter')]</value>
-      <webElementGuid>200f20a6-f354-4214-b078-41a76955c380</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -160,14 +200,6 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama MB'])[1]/preceding::button[1]</value>
       <webElementGuid>ad302548-2820-41b7-9413-9215f7a836ea</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Filter']/parent::*</value>
-      <webElementGuid>5e43ec4a-0e80-4288-9729-21f4f8291536</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

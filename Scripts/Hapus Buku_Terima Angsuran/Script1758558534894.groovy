@@ -27,55 +27,70 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 //Login
 TestObject inputUsername = new TestObject('inputUsername')
 inputUsername.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Username atau NIK']")
+
 WebUI.setText(inputUsername, GlobalVariable.username)
 
 TestObject inputPassword = new TestObject('inputPassword')
 inputPassword.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Password']")
+
 WebUI.setEncryptedText(inputPassword, GlobalVariable.password)
 
 TestObject btnLogin = new TestObject('btnLogin')
 btnLogin.addProperty("xpath", ConditionType.EQUALS, "//button[@type='submit' and contains(@class,'btn-primary')]")
+
 WebUI.waitForElementVisible(btnLogin, 10)
 WebUI.waitForElementClickable(btnLogin, 10)
 WebUI.click(btnLogin)
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Program Kemitraan'))
 
-TestObject kreditBermasalahKhusus = new TestObject('kreditBermasalahKhusus')
-kreditBermasalahKhusus.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'nav-dropdown-toggle') and normalize-space()='Kredit Bermasalah Khusus']")
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Angsuran'))
 
-WebUI.waitForElementClickable(kreditBermasalahKhusus, 10)
-WebUI.click(kreditBermasalahKhusus)
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Hapus Buku'))
 
-TestObject menuPengajuan = new TestObject('menuPengajuan')
-menuPengajuan.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@href,'/kredit-bermasalah-khusus/pengajuan')]")
+TestObject btnTerimaAngsuran = new TestObject("btnRekomendasi")
+btnTerimaAngsuran.addProperty("xpath", ConditionType.EQUALS, "(//a[contains(@class,'btn-success') and contains(text(),'Terima Angsuran')])[1]")
 
-WebUI.waitForElementClickable(menuPengajuan, 10)
-WebUI.click(menuPengajuan)
+WebUI.click(btnTerimaAngsuran)
 
-TestObject filternokredit = new TestObject('filternokredit')
-filternokredit.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Nomor Kredit']")
-WebUI.setText(filternokredit, "1100106150020")
+//Kalo mau tunai part ini di comment
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/label_Transfer Bank'))
 
-TestObject filterBtn = new TestObject()
-filterBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Filter\']')
-WebUI.click(filterBtn)
+WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Rp_v-money form-control text-right'), '1,000,000')
 
-WebUI.delay(10)
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Cek Simulasi'))
 
-TestObject filternokredit1 = new TestObject('filternokredit')
-filternokredit1.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Nomor Kredit']")
-WebUI.setText(filternokredit1, "")
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Terima'))
 
-TestObject filternamaMB = new TestObject('filternokredit')
-filternamaMB.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Nama MB']")
-WebUI.setText(filternamaMB, "Baso")
+WebUI.waitForAlert(10)
 
-TestObject filterBtn1 = new TestObject()
-filterBtn1.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Filter\']')
-WebUI.click(filterBtn1)
+WebUI.acceptAlert()
 
-WebUI.delay(10)
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tutup'))
+
+WebUI.delay(20)
+
+
+//Laporan Bagan Akun
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Pelaporan'))
+
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Laporan PK'))
+
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Laporan Akuntansi'))
+
+TestObject menuBaganAkun = new TestObject('menuBaganAkun')
+menuBaganAkun.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@href,'/pelaporan/akuntansi/bagan-akun-pk')]")
+
+WebUI.waitForElementClickable(menuBaganAkun, 10)
+WebUI.click(menuBaganAkun)
+
+TestObject konsolidasiLabel = new TestObject('dynamicKonsolidasiLabel')
+konsolidasiLabel.addProperty('xpath', ConditionType.EQUALS, '//label[@for=\'konsolidasi\']')
+
+WebUI.click(konsolidasiLabel)
+
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Filter'))
+
+WebUI.delay(30)
 
 WebUI.closeBrowser()
-

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Simpan</name>
+   <name>button_Import</name>
    <tag></tag>
-   <elementGuidId>8861ce1e-d786-4298-a3c5-2b6616568bf9</elementGuidId>
+   <elementGuidId>5694e1ec-4c4c-431f-9574-ec0778e00929</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#modalFormAjukanReklas___BV_modal_footer_ > div > button.btn.btn-primary</value>
+         <value>#modal-form___BV_modal_footer_ > div > button.btn.btn-primary</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[8]</value>
+         <value>(//button[@type='button'])[7]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6a701959-4746-4f59-b629-ddb127396767</webElementGuid>
+      <webElementGuid>8e52366b-3df4-46bf-b854-30bdd033f76e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>28d53498-093a-4028-89f8-2b1bde6e9b45</webElementGuid>
+      <webElementGuid>d8085ef0-0a71-45cb-9db0-7b5d1f5e5f75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,63 +39,71 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>8954939d-7dc9-4b1a-8880-83d5eb5d017d</webElementGuid>
+      <webElementGuid>cc2dcc38-985e-4ff3-98ea-85fd9ba36dd5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Simpan</value>
-      <webElementGuid>5dd6d213-4b19-42f4-80ca-4303a4d18771</webElementGuid>
+      <value>Import</value>
+      <webElementGuid>c6243975-4dff-4634-9152-5793ea76d797</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modalFormAjukanReklas___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>edc16fc0-ea47-4d3c-a0b7-2422ff8aa211</webElementGuid>
+      <value>id(&quot;modal-form___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>1f07b9d2-3e8d-4bcc-8ff8-b9967fb2ede2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[8]</value>
-      <webElementGuid>77130d9b-f9bb-4e19-8a1a-c059ef582d2a</webElementGuid>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>52f4ebe1-a146-4240-b8d6-739ebc932950</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//footer[@id='modalFormAjukanReklas___BV_modal_footer_']/div/button</value>
-      <webElementGuid>9a564029-c227-4e6a-8f49-5407508b36f1</webElementGuid>
+      <value>//footer[@id='modal-form___BV_modal_footer_']/div/button</value>
+      <webElementGuid>d24bd647-45d2-43ac-a3ce-190679e28e73</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pdf test file.pdf'])[1]/following::button[1]</value>
-      <webElementGuid>820600de-14bf-402f-ab37-a87643a5f181</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='format_pengajuan_hapus_buku.csv'])[1]/following::button[1]</value>
+      <webElementGuid>050d94b5-c7bc-4d24-8951-6fad305efc87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='* PDF, Max 2MB'])[1]/following::button[1]</value>
-      <webElementGuid>ff7facd4-95c8-499d-aada-8654bb72b7aa</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::button[1]</value>
+      <webElementGuid>a221fb9c-ed63-4db8-b67e-282cf49503ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Simpan']/parent::*</value>
-      <webElementGuid>1fc721b2-0843-48d8-b317-64a98e714033</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::button[1]</value>
+      <webElementGuid>08cafc29-d38c-4c0e-b741-b14d7390addc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Import']/parent::*</value>
+      <webElementGuid>cf5060c0-3335-4876-bcd9-ecd5aa8bec9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,30 +111,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//footer/div/button</value>
-      <webElementGuid>05e3f212-467e-4cab-ac18-8b59bac41ba7</webElementGuid>
+      <webElementGuid>669fb2c0-f59f-41ec-921b-159dd2c11883</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Simpan' or . = 'Simpan')]</value>
-      <webElementGuid>32ade14e-9df6-485b-8c50-32742d18159a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[6]</value>
-      <webElementGuid>88ee4e45-8cab-4ace-bfa8-23136ef90ae7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::button[1]</value>
-      <webElementGuid>77506ca1-6029-4cec-9e10-334496c87e5a</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Import' or . = 'Import')]</value>
+      <webElementGuid>8842646f-b57e-4239-b19d-4e99c7fe2cbb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

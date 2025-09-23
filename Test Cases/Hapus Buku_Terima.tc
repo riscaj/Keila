@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Reklas_Pengajuan Wilayah</name>
+   <name>Hapus Buku_Terima</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>83eff247-d5fd-4ecc-ab9b-fa9e3ef4ab6f</testCaseGuid>
+   <testCaseGuid>64ae1c40-c105-473b-a29f-8df1df973d6c</testCaseGuid>
 </TestCaseEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Reklas Khusus_Filter_Persetujuan</name>
+   <name>Hapus Buku_Tolak_Rekomendasi</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>bcb8a82f-2ee0-4145-a643-b0beabdab814</testCaseGuid>
+   <testCaseGuid>181352a3-02bf-4ffa-90e5-0003801eb6cf</testCaseGuid>
 </TestCaseEntity>

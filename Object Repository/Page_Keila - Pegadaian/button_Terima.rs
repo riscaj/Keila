@@ -6,12 +6,12 @@
    <elementGuidId>06e42438-248c-4594-9fed-7b1af32e91e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.btn.mr-2.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e9d331a6-5112-4709-9a3b-b4bbb4d9f721</webElementGuid>
+      <webElementGuid>0fbd43d5-b1cf-49f6-a751-ce02c58c0bd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f42e3211-9ecf-40ef-802e-24990ba115c4</webElementGuid>
+      <webElementGuid>d4414a98-20d7-45a4-a74e-5d6be314270e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn mr-2 btn-primary</value>
-      <webElementGuid>befde117-29b4-4cdd-b346-608c6080a0f6</webElementGuid>
+      <webElementGuid>38e4bfa9-d6d2-4c83-b436-98a39d0f1a3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,18 +47,82 @@
       <name>text</name>
       <type>Main</type>
       <value>Terima</value>
-      <webElementGuid>fa7019fb-7f44-443a-9834-6b3be5a05bce</webElementGuid>
+      <webElementGuid>e0724ffa-2793-4e0a-b310-796fb57a51dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;modalPersetujuan___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn mr-2 btn-primary&quot;]</value>
-      <webElementGuid>f25eb78a-8fc1-4d35-8b90-4df4215d66ed</webElementGuid>
+      <value>id(&quot;modal-form___BV_modal_footer_&quot;)/div[1]/button[@class=&quot;btn mr-2 btn-primary&quot;]</value>
+      <webElementGuid>93f73866-93b5-4aa1-9558-73cc306871fd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>64db9c7f-9afd-4da0-8c3d-8102cd99d653</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//footer[@id='modal-form___BV_modal_footer_']/div/button[2]</value>
+      <webElementGuid>ff1a7491-6794-4e04-81d6-e717adda43de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cek Simulasi'])[1]/following::button[1]</value>
+      <webElementGuid>c8736e90-6508-4fd1-88ff-17ebc8c0f7b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank BRI - PK Pusat'])[1]/following::button[2]</value>
+      <webElementGuid>3648ebc7-f58a-45ec-b8d1-d0ea6d8bc028</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::button[1]</value>
+      <webElementGuid>e3eda88a-4bb5-4d90-8e78-b0ba9d4a59cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Terima']/parent::*</value>
+      <webElementGuid>d57aa3e5-1dae-4775-b9af-c0d152c62e76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button[2]</value>
+      <webElementGuid>5cf7adb5-182c-4021-904d-77b5d0b90f20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Terima' or . = 'Terima')]</value>
+      <webElementGuid>8fae6aac-8c92-43ab-bb4d-5978ce6e9b00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -100,26 +164,10 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Terima']/parent::*</value>
-      <webElementGuid>22c00f8a-1640-4912-b54e-ee844734121a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/button</value>
       <webElementGuid>9fec449a-cce0-421b-b7b3-1882b44650e0</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'Terima' or . = 'Terima')]</value>
-      <webElementGuid>dd39a062-ac28-49bd-b900-7cd17a0c3a23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

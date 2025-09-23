@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Reklas Khusus_Filter_Rekomendasi</name>
+   <name>Reklas_Pengajuan Wilayah_Rekomendasi_Ditolak</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>77a615aa-2c65-4e29-900f-881057c65d4e</testCaseGuid>
+   <testCaseGuid>a0c4e437-798e-4768-aca5-cf7b53b132e8</testCaseGuid>
 </TestCaseEntity>

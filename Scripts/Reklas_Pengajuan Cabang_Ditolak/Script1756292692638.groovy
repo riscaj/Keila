@@ -27,14 +27,17 @@ WebUI.navigateToUrl(GlobalVariable.baseUrl)
 //Login
 TestObject inputUsername = new TestObject('inputUsername')
 inputUsername.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Username atau NIK']")
+
 WebUI.setText(inputUsername, GlobalVariable.username)
 
 TestObject inputPassword = new TestObject('inputPassword')
 inputPassword.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='Password']")
+
 WebUI.setEncryptedText(inputPassword, GlobalVariable.password)
 
 TestObject btnLogin = new TestObject('btnLogin')
 btnLogin.addProperty("xpath", ConditionType.EQUALS, "//button[@type='submit' and contains(@class,'btn-primary')]")
+
 WebUI.waitForElementVisible(btnLogin, 10)
 WebUI.waitForElementClickable(btnLogin, 10)
 WebUI.click(btnLogin)
@@ -46,6 +49,7 @@ kreditBermasalah.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@cla
 
 WebUI.waitForElementClickable(kreditBermasalah, 10)
 WebUI.click(kreditBermasalah)
+
 
 //Pengajuan
 TestObject menuPengajuanCabang = new TestObject('menuPengajuanCabang')
@@ -64,15 +68,15 @@ btnAjukanReklas.addProperty('xpath', ConditionType.EQUALS, '(//a[contains(text()
 
 WebUI.click(btnAjukanReklas)
 
-TestObject chkUsahaBangkrut = new TestObject()
-chkUsahaBangkrut.addProperty('xpath', ConditionType.EQUALS, '//label[contains(text(),\'Usaha Bangkrut\')]')
+TestObject chkKriteriaBencana = new TestObject()
+chkKriteriaBencana.addProperty('xpath', ConditionType.EQUALS, '//label[contains(text(),\'Usaha Bangkrut\')]')
 
-WebUI.click(chkUsahaBangkrut)
+WebUI.click(chkKriteriaBencana)
 
-TestObject chkTidakDiketahuiDomisili = new TestObject()
-chkTidakDiketahuiDomisili.addProperty('xpath', ConditionType.EQUALS, '//label[contains(text(),\'Tidak diketahui domisili\')]')
+TestObject chkKriteriaBencana1 = new TestObject()
+chkKriteriaBencana1.addProperty('xpath', ConditionType.EQUALS, '//label[contains(text(),\'Tidak diketahui domisili\')]')
 
-WebUI.click(chkTidakDiketahuiDomisili)
+WebUI.click(chkKriteriaBencana1)
 
 TestObject txtAlasan = new TestObject()
 txtAlasan.addProperty('xpath', ConditionType.EQUALS, '//textarea[@name=\'alasan_pengajuan\' or @placeholder=\'Alasan Pengajuan\']')
@@ -84,7 +88,14 @@ btnSimpan.addProperty('xpath', ConditionType.EQUALS, '//button[contains(text(),\
 
 WebUI.click(btnSimpan)
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tutup'))
+TestObject btnTutup = new TestObject('btnTutup')
+btnTutup.addProperty("xpath", ConditionType.EQUALS, "//button[@type='button' and contains(@class,'btn-danger')]")
+
+WebUI.waitForElementClickable(btnTutup, 10)
+WebUI.click(btnTutup)
+
+WebUI.delay(20)
+
 
 //Rekomendasi
 TestObject menuRekomendasiCabang = new TestObject('menuRekomendasiCabang')
@@ -108,6 +119,9 @@ WebUI.waitForAlert(10)
 
 WebUI.acceptAlert()
 
+WebUI.delay(20)
+
+
 //Persetujuan
 TestObject menuPersetujuanCabang = new TestObject('menuPersetujuanCabang')
 menuPersetujuanCabang.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@href,'/kredit-bermasalah/cabang/persetujuan')]")
@@ -115,48 +129,19 @@ menuPersetujuanCabang.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@
 WebUI.waitForElementClickable(menuPersetujuanCabang, 10)
 WebUI.click(menuPersetujuanCabang)
 
-TestObject btnApproveReklas = new TestObject()
+TestObject btnApproval = new TestObject('btnApproval')
+btnApproval.addProperty('xpath', ConditionType.EQUALS, '//table[contains(@class,\'table-bordered\')]/tbody/tr[1]//a[contains(text(),\'Approve\')]')
 
-WebUI.click(btnApproveReklas)
+WebUI.click(btnApproval)
 
-WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/textarea__alasan-approval'), 'ok')
+WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/textarea__alasan-approval'), 'not ok')
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Terima'))
+WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tolak'))
 
 WebUI.waitForAlert(10)
 
 WebUI.acceptAlert()
 
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Tutup_1'))
-
-//Laporan MB Bermasalah
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Pelaporan'))
-
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Laporan PK'))
-
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Rekap Rincian MB Bermasalah PK'))
-
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/label_Konsolidasi'))
-
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Filter'))
-
-//Laporan Bagan Akun
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/div_Laporan Akuntansi'))
-
-TestObject menuBaganAkun = new TestObject('menuBaganAkun')
-menuBaganAkun.addProperty("xpath", ConditionType.EQUALS, "//a[contains(@href,'/pelaporan/akuntansi/bagan-akun-pk')]")
-
-WebUI.waitForElementClickable(menuBaganAkun, 10)
-WebUI.click(menuBaganAkun)
-
-TestObject konsolidasiLabel = new TestObject('dynamicKonsolidasiLabel')
-konsolidasiLabel.addProperty('xpath', ConditionType.EQUALS, '//label[@for=\'konsolidasi\']')
-
-WebUI.click(konsolidasiLabel)
-
-WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Filter'))
-
-WebUI.delay(10)
+WebUI.delay(20)
 
 WebUI.closeBrowser()
-

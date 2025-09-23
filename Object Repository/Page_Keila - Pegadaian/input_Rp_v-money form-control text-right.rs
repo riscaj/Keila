@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Login___BVID__8</name>
+   <name>input_Rp_v-money form-control text-right</name>
    <tag></tag>
-   <elementGuidId>0c9d9c27-86ac-4900-9610-1d2b0c65524f</elementGuidId>
+   <elementGuidId>bbec3dbe-3bfd-4f65-969d-51265e7b1b0b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#__BVID__8</value>
+         <value>input.v-money.form-control.text-right</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='__BVID__8']</value>
+         <value>//input[@type='tel']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,78 +23,62 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6c996e1e-272f-424d-9609-0834d9d92d9e</webElementGuid>
+      <webElementGuid>4f1d0813-73bd-4a3d-8e75-dd3cd80a0f81</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
-      <webElementGuid>66ea038a-f230-4d4c-823e-1e219ccbd1bb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Username atau NIK</value>
-      <webElementGuid>32445fe8-2564-47d1-828a-b37262ec4dc5</webElementGuid>
+      <value>tel</value>
+      <webElementGuid>8d6b668b-f29c-44b7-a689-6c9944055488</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>6b419a77-1cb2-41d4-a098-afcb660daa8f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>__BVID__8</value>
-      <webElementGuid>54894812-b2b7-44d6-918c-a74638ad5b40</webElementGuid>
+      <value>v-money form-control text-right</value>
+      <webElementGuid>b183f08d-87b3-460b-9f72-993644f0253e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__8&quot;)</value>
-      <webElementGuid>d8d585d1-7eee-4185-aae5-ec194cf58c55</webElementGuid>
+      <value>id(&quot;__BVID__445&quot;)/div[1]/div[@class=&quot;input-group&quot;]/input[@class=&quot;v-money form-control text-right&quot;]</value>
+      <webElementGuid>3c174916-3cbe-49a3-a96e-678a59e18c0b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='__BVID__8']</value>
-      <webElementGuid>0296cffe-16c5-4a65-a0a0-253d35e70d20</webElementGuid>
+      <value>//input[@type='tel']</value>
+      <webElementGuid>2fd15490-5b85-4214-9e8e-4e50e9541eeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__7']/div/input</value>
-      <webElementGuid>c2477745-7caf-4374-ac1e-e39fbae198d6</webElementGuid>
+      <value>//fieldset[@id='__BVID__445']/div/div/input</value>
+      <webElementGuid>af2c5c70-54a5-410e-89ff-1b707d8ab823</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>fa59b912-1ec5-4ac6-98d3-47d2be019757</webElementGuid>
+      <value>//fieldset[2]/div/div/input</value>
+      <webElementGuid>9a58e28a-36ce-40ba-8c38-3f98f0ab2729</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @placeholder = 'Username atau NIK' and @id = '__BVID__8']</value>
-      <webElementGuid>9c5e0d50-9507-4517-acba-78136c460975</webElementGuid>
+      <value>//input[@type = 'tel']</value>
+      <webElementGuid>54e02a27-808f-4500-b521-7c93a85613dc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

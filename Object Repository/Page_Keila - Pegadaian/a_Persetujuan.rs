@@ -7,6 +7,7 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,15 +23,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b2412851-63c0-4b3c-af21-dd6705c39d90</webElementGuid>
+      <webElementGuid>8efeeb85-4af9-4ef8-a66d-c58d32d1a6fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/program-kemitraan/kredit-bermasalah-khusus/persetujuan</value>
-      <webElementGuid>051cb484-ae0e-49e9-a3e7-1df03582d151</webElementGuid>
+      <value>/program-kemitraan/hapus-buku/persetujuan</value>
+      <webElementGuid>6f3003ee-08ba-48d0-8420-29750f492523</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>6efc4d38-a5e8-44f8-b1c1-33081f488cdd</webElementGuid>
+      <webElementGuid>b80d5add-3dcf-4441-8e9e-8bff423d0e85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Persetujuan</value>
-      <webElementGuid>0e15ea5c-0918-43d6-8e6d-55312d0b874a</webElementGuid>
+      <webElementGuid>4e01588a-2787-4089-936a-c38eed9ffbe0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,15 +56,15 @@
       <type>Main</type>
       <value> Persetujuan
   </value>
-      <webElementGuid>4891c4b6-a862-4bd8-9575-291fd4853d42</webElementGuid>
+      <webElementGuid>677f753e-be43-4201-a792-2f63a59dfc09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item nav-dropdown open&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>9ca37ba7-7d10-4e0d-bb7b-d1b04c82e413</webElementGuid>
+      <value>/html[@class=&quot;&quot;]/body[@class=&quot;sidebar-lg-show header-fixed sidebar-fixed&quot;]/div[@class=&quot;app&quot;]/div[@class=&quot;app-body&quot;]/div[@class=&quot;sidebar&quot;]/nav[@class=&quot;sidebar-nav&quot;]/div[@class=&quot;scroll-area&quot;]/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown open active&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item nav-dropdown open active&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>8c7dc77d-9016-4960-9f1d-6d32af9bfd27</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +72,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Persetujuan')])[4]</value>
-      <webElementGuid>b8301da7-5100-493d-ba93-5199c8890dd0</webElementGuid>
+      <webElementGuid>1b0b4a8a-5295-4564-a427-cd58aec27015</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +80,57 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rekomendasi'])[2]/following::a[1]</value>
-      <webElementGuid>093ee1f2-f068-4df0-8108-46919b91a00a</webElementGuid>
+      <webElementGuid>becb255b-5b4c-4e7f-b626-bdc28675c2b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pengajuan'])[2]/following::a[2]</value>
+      <webElementGuid>868d4d81-044b-4eef-bd14-a2fd51c6270f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Release'])[1]/preceding::a[1]</value>
+      <webElementGuid>407505a8-b2cd-4ad6-8b80-d93ce96778bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaksi PKBL'])[1]/preceding::a[2]</value>
+      <webElementGuid>a6c6c4c8-3211-465b-a642-50103a56b9cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/program-kemitraan/hapus-buku/persetujuan')]</value>
+      <webElementGuid>ff64776c-1faa-40f3-9468-1b370d57ee1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[11]/ul/li[3]/a</value>
+      <webElementGuid>e8ad5d16-83a6-4eb6-813c-faa15d268eda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/program-kemitraan/hapus-buku/persetujuan' and @title = 'Persetujuan' and (text() = ' Persetujuan
+  ' or . = ' Persetujuan
+  ')]</value>
+      <webElementGuid>4085e7c3-57bd-4c6d-8c94-d9daa2377e42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

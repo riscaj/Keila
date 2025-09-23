@@ -6,12 +6,12 @@
    <elementGuidId>471ef4a2-1365-4431-ac3d-baa664368f43</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='alasan-approval']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#alasan-approval</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@id='alasan-approval']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>a2d8c0f3-ed1f-4f79-913f-981d46522124</webElementGuid>
+      <webElementGuid>1b692f13-42fc-4737-8733-0d2b7827505b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,23 +31,23 @@
       <name>id</name>
       <type>Main</type>
       <value>alasan-approval</value>
-      <webElementGuid>49f0d6ec-39ba-4222-bc1e-6d940996d1f4</webElementGuid>
+      <webElementGuid>c561d708-5565-4dc3-b7c4-8543368daadf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Alasan</value>
-      <webElementGuid>f4279e7f-6f63-4b21-af8e-1f09572f4541</webElementGuid>
+      <value>Masukkan catatan</value>
+      <webElementGuid>1500c087-fbb2-4c94-8505-6f8554a34445</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>rows</name>
       <type>Main</type>
-      <value>3</value>
-      <webElementGuid>7ad4b294-6b52-4a79-a3c6-5803012a3687</webElementGuid>
+      <value>4</value>
+      <webElementGuid>cb6dc5b8-0044-402a-9a6e-642c4b87c0e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>wrap</name>
       <type>Main</type>
       <value>soft</value>
-      <webElementGuid>2b93348d-0fe7-4b43-8b66-463a692b9278</webElementGuid>
+      <webElementGuid>f0e57c24-86a4-40a6-9dbc-400dd5e6a1bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>3e8796bf-908f-4db5-98fb-6656a71e9d95</webElementGuid>
+      <webElementGuid>5fef2cb9-e72e-4c59-b3ab-1409d46db1ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;alasan-approval&quot;)</value>
-      <webElementGuid>a2dde769-ff3b-4753-b004-e1e984f5a5d3</webElementGuid>
+      <webElementGuid>1753261a-cad7-4c02-8dc6-c92f8ab659ef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -95,7 +95,31 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//textarea[@id='alasan-approval']</value>
-      <webElementGuid>341e09bd-0e0a-4b6e-b155-3916b0278024</webElementGuid>
+      <webElementGuid>3da2c6bd-9beb-4d5d-9f9a-d22e0c90fea7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='modalApproval___BV_modal_body_']/div/textarea</value>
+      <webElementGuid>be6285ad-6999-4457-9c19-33fb0e2ca9a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//textarea</value>
+      <webElementGuid>e31159c1-aba8-4cc8-8223-08291b798995</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'alasan-approval' and @placeholder = 'Masukkan catatan']</value>
+      <webElementGuid>8fba1881-f38c-4aec-a3d0-e41ee3620cdf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,14 +128,6 @@
       <type>Main</type>
       <value>//fieldset[@id='__BVID__609']/div/textarea</value>
       <webElementGuid>9b16b8df-10d6-4416-a3d8-319ceba5cde8</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//textarea</value>
-      <webElementGuid>d072be89-f027-48dd-91cd-0567ab7d0882</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
