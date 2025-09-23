@@ -71,7 +71,7 @@ TestObject nomorKreditInput = new TestObject()
 nomorKreditInput.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Kredit\']')
 
 WebUI.waitForElementVisible(nomorKreditInput, 10)
-WebUI.setText(nomorKreditInput, '1310978210011')
+WebUI.setText(nomorKreditInput, '1313259230013')
 
 TestObject cariDataBtn = new TestObject()
 cariDataBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Cari Data\']')
@@ -95,7 +95,7 @@ WebUI.setText(alasanPengajuan, 'Banjir')
 
 String projectDir = RunConfiguration.getProjectDir()
 
-String filePath = projectDir + "/Data Files/Pdf test file.pdf"
+String filePath = projectDir + GlobalVariable.fileUpload
 
 TestObject uploadFile = new TestObject()
 uploadFile.addProperty('xpath', ConditionType.EQUALS, '//input[@type="file"]')

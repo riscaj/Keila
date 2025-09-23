@@ -95,7 +95,7 @@ WebUI.setText(alasanPengajuan, 'Banjir')
 
 String projectDir = RunConfiguration.getProjectDir()
 
-String filePath = projectDir + "/Data Files/Pdf test file.pdf"
+String filePath = projectDir + GlobalVariable.fileUpload
 
 TestObject uploadFile = new TestObject()
 uploadFile.addProperty('xpath', ConditionType.EQUALS, '//input[@type="file"]')

@@ -68,7 +68,7 @@ WebUI.click(btnUpload)
 
 String projectDir = RunConfiguration.getProjectDir()
 
-String filePath = projectDir + "/Data Files/format_pengajuan_hapus_buku.csv"
+String filePath = projectDir + GlobalVariable.fileCSV
 
 TestObject uploadFileCSV = new TestObject()
 uploadFileCSV.addProperty('xpath', ConditionType.EQUALS, '//input[@type="file"]')
@@ -97,7 +97,7 @@ WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(WebUI.findWebElem
 
 String projectDir1 = RunConfiguration.getProjectDir()
 
-String filePath1 = projectDir1 + "/Data Files/Pdf test file.pdf"
+String filePath1 = projectDir + GlobalVariable.fileUpload
 
 TestObject uploadFile = new TestObject()
 uploadFile.addProperty('xpath', ConditionType.EQUALS, '//input[@type="file"]')
