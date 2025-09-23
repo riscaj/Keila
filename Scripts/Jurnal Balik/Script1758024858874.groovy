@@ -56,7 +56,7 @@ WebUI.click(subMenuJurnalBalik)
 TestObject kodejurnal = new TestObject()
 kodejurnal.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Bukti\']')
 
-WebUI.setText(kodejurnal, '20250923001513.PL')
+WebUI.setText(kodejurnal, '20250923150850.PL')
 
 TestObject cariDataBtn = new TestObject()
 cariDataBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Cari Jurnal\']')

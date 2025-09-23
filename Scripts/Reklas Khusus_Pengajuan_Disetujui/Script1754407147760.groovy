@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
 
 WebUI.openBrowser('')
 
@@ -69,7 +71,7 @@ TestObject nomorKreditInput = new TestObject()
 nomorKreditInput.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Kredit\']')
 
 WebUI.waitForElementVisible(nomorKreditInput, 10)
-WebUI.setText(nomorKreditInput, '1310807210017')
+WebUI.setText(nomorKreditInput, '1310978210011')
 
 TestObject cariDataBtn = new TestObject()
 cariDataBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Cari Data\']')
@@ -91,10 +93,14 @@ alasanPengajuan.addProperty('xpath', ConditionType.EQUALS, '//textarea[@placehol
 
 WebUI.setText(alasanPengajuan, 'Banjir')
 
-TestObject uploadFileInput = new TestObject()
-uploadFileInput.addProperty('xpath', ConditionType.EQUALS, '//input[@type=\'file\']')
+String projectDir = RunConfiguration.getProjectDir()
 
-WebUI.uploadFile(uploadFileInput, '/Users/riscajulinarti/Documents/Pdf test file.pdf')
+String filePath = projectDir + "/Data Files/Pdf test file.pdf"
+
+TestObject uploadFile = new TestObject()
+uploadFile.addProperty('xpath', ConditionType.EQUALS, '//input[@type="file"]')
+
+WebUI.uploadFile(uploadFile, filePath)
 
 TestObject simpanBtn = new TestObject()
 simpanBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Simpan\']')
