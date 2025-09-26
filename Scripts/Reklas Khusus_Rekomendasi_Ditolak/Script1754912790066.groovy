@@ -71,7 +71,8 @@ WebUI.click(tambahBtn)
 TestObject nomorKreditInput = new TestObject()
 nomorKreditInput.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Kredit\']')
 
-WebUI.setText(nomorKreditInput, '1310835210012')
+WebUI.waitForElementVisible(nomorKreditInput, 10)
+WebUI.setText(nomorKreditInput, '1311046210015')
 
 TestObject cariDataBtn = new TestObject()
 cariDataBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Cari Data\']')
