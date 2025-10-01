@@ -56,7 +56,7 @@ WebUI.click(btnTerimaAngsuran)
 //Kalo mau tunai part ini di comment
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/label_Transfer Bank'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Rp_v-money form-control text-right'), '1,000,000')
+WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/input_Rp_v-money form-control text-right'), '100,000')
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Cek Simulasi'))
 

@@ -68,7 +68,7 @@ WebUI.click(btnUpload)
 
 String projectDir = RunConfiguration.getProjectDir()
 
-String filePath = projectDir + GlobalVariable.fileCSV
+String filePath = projectDir + GlobalVariable.fileCSVterima
 
 TestObject uploadFileCSV = new TestObject()
 uploadFileCSV.addProperty('xpath', ConditionType.EQUALS, '//input[@type="file"]')

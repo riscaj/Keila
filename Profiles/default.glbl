@@ -27,8 +27,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/Data Files/format_pengajuan_hapus_buku.csv'</initValue>
-      <name>fileCSV</name>
+      <initValue>'/Data Files/format_pengajuan_hapus_buku_terima.csv'</initValue>
+      <name>fileCSVterima</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
@@ -36,6 +36,20 @@
       <description></description>
       <initValue>'/Data Files/Pdf test file.pdf'</initValue>
       <name>fileUpload</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Data Files/format_pengajuan_hapus_buku _tolak_rekomendasi.csv'</initValue>
+      <name>fileCSVtolakrek</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/Data Files/format_pengajuan_hapus_buku _tolak_persetujuan.csv'</initValue>
+      <name>fileCSVtolakper</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
