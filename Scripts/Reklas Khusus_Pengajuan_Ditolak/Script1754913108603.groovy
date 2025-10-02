@@ -67,11 +67,13 @@ tambahBtn.addProperty('xpath', ConditionType.EQUALS, '//a[normalize-space(text()
 WebUI.waitForElementClickable(tambahBtn, 10)
 WebUI.click(tambahBtn)
 
+WebUI.delay(5)
+
 TestObject nomorKreditInput = new TestObject()
 nomorKreditInput.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Kredit\']')
 
 WebUI.waitForElementVisible(nomorKreditInput, 10)
-WebUI.setText(nomorKreditInput, '1311745230017')
+WebUI.setText(nomorKreditInput, '1310955210015')
 
 WebUI.delay(5)
 

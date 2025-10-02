@@ -112,6 +112,7 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Meno
 
 WebUI.setText(findTestObject('Object Repository/Page_Keila - Pegadaian/textarea__alasan'), 'Tolak')
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Kirim'), 10)
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Kirim'))
 
 WebUI.waitForAlert(10)

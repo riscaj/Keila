@@ -164,6 +164,7 @@ WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/a_Rekap Rin
 TestObject konsolidasiMB = new TestObject('dynamicKonsolidasiLabel')
 konsolidasiMB.addProperty('xpath', ConditionType.EQUALS, '//label[@for=\'konsolidasi\']')
 
+WebUI.waitForElementClickable(konsolidasiMB, 10)
 WebUI.click(konsolidasiMB)
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Filter'))
@@ -181,6 +182,7 @@ WebUI.click(menuBaganAkun)
 TestObject konsolidasiLabel = new TestObject('dynamicKonsolidasiLabel')
 konsolidasiLabel.addProperty('xpath', ConditionType.EQUALS, '//label[@for=\'konsolidasi\']')
 
+WebUI.waitForElementClickable(konsolidasiLabel, 10)
 WebUI.click(konsolidasiLabel)
 
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Filter'))

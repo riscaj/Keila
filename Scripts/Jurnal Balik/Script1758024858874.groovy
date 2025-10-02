@@ -56,7 +56,7 @@ WebUI.click(subMenuJurnalBalik)
 TestObject kodejurnal = new TestObject()
 kodejurnal.addProperty('xpath', ConditionType.EQUALS, '//input[@placeholder=\'Nomor Bukti\']')
 
-WebUI.setText(kodejurnal, '20250806155903.KB')
+WebUI.setText(kodejurnal, '20220120172506.KB')
 
 TestObject cariDataBtn = new TestObject()
 cariDataBtn.addProperty('xpath', ConditionType.EQUALS, '//button[normalize-space()=\'Cari Jurnal\']')
@@ -74,7 +74,7 @@ fieldTanggal.addProperty("xpath", ConditionType.EQUALS, "//input[@placeholder='T
 WebUI.click(fieldTanggal)
 
 TestObject pilihTanggal = new TestObject()
-pilihTanggal.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'vdp-datepicker__calendar')]//span[text()='22']")
+pilihTanggal.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'vdp-datepicker__calendar')]//span[text()='1']")
 WebUI.click(pilihTanggal)
 
 TestObject simpanBtn = new TestObject()

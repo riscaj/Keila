@@ -82,6 +82,8 @@ checkboxLabel.addProperty("xpath", ConditionType.EQUALS, "//div[@title='Centang/
 WebUI.waitForElementClickable(checkboxLabel, 20)
 WebUI.enhancedClick(checkboxLabel)
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Page_Keila - Pegadaian/button_Ajukan'))
 
 TestObject checkboxLabelAlasan = new TestObject()
